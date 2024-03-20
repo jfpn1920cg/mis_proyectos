@@ -25,11 +25,7 @@ header {
     font-weight: bold;
 }
 
-.search-bar {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
+
 
 input {
     padding: 0.5em;
@@ -114,9 +110,5 @@ nav a:hover {
 
     nav li {
         margin: 0;
-    }
-
-    .search-bar {
-        margin-top: 10px;
     }
 }

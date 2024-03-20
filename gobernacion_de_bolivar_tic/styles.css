@@ -1,9 +1,190 @@
-.contenedor_1{
-    margin-top: -8px;
-    margin-left: -8px;
-    width: 1280px;
-    background: rgb(93, 93, 220);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
 }
-.imagen_1{
-    margin-left: 100px;
+/*estilizando_menu_de_navegacion*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5d5ddc;
+    color: #fff;
+}
+.logo-search {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 200px;
+}
+.search-btn {
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(93, 93, 220);
+    color: rgb(0, 0, 0);
+}
+.menu-btn {
+    font-size: 1.5em;
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    margin-left: -30px;
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+nav a:hover {
+    color: rgb(255, 204, 0);
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 683px;
+    }
+    .menu-btn {
+        height: 60px;
+        display: block;
+        height: -10px;
+        margin-top: -60px;
+        margin-left: 650px;
+    }
+    nav {
+        width: 99%;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav.active {
+        display: flex;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: justify;   
+    }
+    nav li {
+        margin: 0;
+    }
+}
+/*estilizando_carrusel*/
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+/*estilizando_carrusel*/
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    position: relative;
+    min-width: 100%;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.indicator:nth-child(1) {
+    background-color: rgb(0, 0, 0); /* Color para la primera página */
+}
+
+.indicator:nth-child(2) {
+    background-color: rgb(0, 0, 0); /* Color para la segunda página */
+}
+
+.indicator:nth-child(3) {
+    background-color: rgb(0, 0, 0); /* Color para la tercera página */
+}
+
+.indicator:nth-child(4) {
+    background-color: rgb(0, 0, 0); /* Color para la cuarta página */
+}
+
+.indicator.active {
+    background-color: rgb(255, 204, 0); /* Color cuando la página está activa */
+}
+
+/* Reglas de medios para dispositivos más pequeños */
+@media screen and (max-width: 768px) {
+    .slide h2 {
+        font-size: 14px; /* Reducir tamaño de fuente del título en dispositivos pequeños */
+    }
+
+    .slide button {
+        font-size: 12px; /* Reducir tamaño de fuente del botón en dispositivos pequeños */
+    }
 }
