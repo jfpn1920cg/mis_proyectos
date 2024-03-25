@@ -1,58 +1,52 @@
 //funcionalidad_menu_de_navegacion
-document.addEventListener("DOMContentLoaded", function () {
-  const menuBtn = document.querySelector(".menu-btn");
-  const nav = document.querySelector("nav");
-
-  menuBtn.addEventListener("click", function () {
-    nav.classList.toggle("active");
-  });
+const burger = document.querySelector('.burger');
+const menuList = document.querySelector('.menu-list');
+burger.addEventListener('click', () => {
+    menuList.classList.toggle('active');
 });
 //funcionalidad_carrusel
-document.addEventListener("DOMContentLoaded", function () {
-  const slides = document.querySelectorAll(".carousel-slide img");
-  const indicatorsContainer = document.querySelector(".carousel-indicators");
-  let currentSlide = 0;
-
-  slides.forEach((slide, index) => {
-    const indicator = document.createElement("span");
-    indicator.classList.add("carousel-indicator");
-    if (index === 0) indicator.classList.add("active");
-    indicator.addEventListener("click", () => {
-      goToSlide(index);
-    });
-    indicatorsContainer.appendChild(indicator);
-  });
-
-  function goToSlide(n) {
-    slides.forEach((slide) => {
-      slide.style.display = "none";
-    });
-    slides[n].style.display = "block";
-    currentSlide = n;
-    updateIndicators();
-  }
-
-  function updateIndicators() {
-    const indicators = document.querySelectorAll(".carousel-indicator");
-    indicators.forEach((indicator, index) => {
-      if (index === currentSlide) {
-        indicator.classList.add("active");
-      } else {
-        indicator.classList.remove("active");
-      }
-    });
-  }
-
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    goToSlide(currentSlide);
-  }
-
-  function prevSlide() {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    goToSlide(currentSlide);
-  }
-
-  setInterval(nextSlide, 3000); // Cambia la imagen cada 3 segundos
+const slides = document.querySelector('.slides');
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+const indicators = document.querySelectorAll('.indicator');
+let slideIndex = 0;
+let autoSlideInterval;
+function showSlides(index) {
+    slides.style.transform = `translateX(-${index * 100}%)`;
+    indicators.forEach(indicator => indicator.classList.remove('active'));
+    indicators[index].classList.add('active');
+}
+function nextSlide() {
+    slideIndex = (slideIndex + 1) % slides.children.length;
+    showSlides(slideIndex);
+}
+function prevSlide() {
+    slideIndex = (slideIndex - 1 + slides.children.length) % slides.children.length;
+    showSlides(slideIndex);
+}
+function startAutoSlide() {
+    autoSlideInterval = setInterval(nextSlide, 5000);
+}
+function stopAutoSlide() {
+    clearInterval(autoSlideInterval);
+}
+prevButton.addEventListener('click', () => {
+    prevSlide();
+    stopAutoSlide();
 });
-//funcionalidad_informacion
+nextButton.addEventListener('click', () => {
+    nextSlide();
+    stopAutoSlide();
+});
+indicators.forEach((indicator, index) => {
+    indicator.addEventListener('click', () => {
+        slideIndex = index;
+        showSlides(slideIndex);
+        stopAutoSlide();
+    });
+});
+startAutoSlide();
+//funcionalidad_zona_de_sugerencia
+function visitPage(url) {
+  window.location.href = url;
+}

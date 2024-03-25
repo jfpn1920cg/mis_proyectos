@@ -1,67 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iniciocontic</title>
+    <title>Menú de Navegación</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
-    <!--estructurando_menu_de_navegacion-->
-    <header>
-        <div class="logo-search">
-            <img src="imagen_1.png" alt="" class="logo">
+    <!--estruturando_menu_de_navegacion-->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imagen_1.png" alt="Logo">
         </div>
-        <button class="menu-btn">&#9776;</button>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Inicio</a></li>
-                <li><a href="#">Nuestros Cursos</a></li>
-                <li><a href="#">Entérate</a></li>
-                <li><a href="#">Necesitas Ayuda</a></li>
-                <li><a href="#">Aliados</a></li>
-                <li><a href="#">Códigos De Paz</a></li>
-                <li><a href="#">Crear Tu Cuenta</a></li>
-                <li><a href="#">Entrar</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--estructurando_carrusel-->
-    <div class="carousel-container">
-        <div class="carousel-slide">
-            <img src="imagen_6.png" alt="Imagen 1">
-            <img src="imagen_5.png" alt="Imagen 2">
-            <img src="imagen_4.png" alt="Imagen 3">
-            <img src="imagen_7.png" alt="Imagen 4">
+        <ul class="menu-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nuestros cursos</a></li>
+            <li><a href="#">Entérate</a></li>
+            <li><a href="#">¿Necesitas ayuda?</a></li>
+            <li><a href="#">Aliados</a></li>
+            <li><a href="#">Códigos de Paz</a></li>
+            <li><a href="#">Crea tu cuenta</a></li>
+            <li><a href="#">Entrar</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-        <div class="carousel-indicators"></div>
+    </nav>
+    <!--estruturando_carrusel-->
+    <div class="carousel">
+        <div class="slides">
+            <img src="imagen_6.png" alt="Slide 1">
+            <img src="imagen_5.png" alt="Slide 2">
+            <img src="imagen_4.png" alt="Slide 3">
+            <img src="imagen_7.png" alt="Slide 4">
+        </div>
+        <div class="controls">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+            <div class="indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
     </div>
-    <!--estructurando_sugerencias-->
-    <div class="contenedor_1">
-        <img src="imagen_2.png" alt="" class="imagen_2">
-        <button class="boton_1"><b>Visitar</b></button>
+    <!--estruturando_zona_de_sugerencia-->
+    <div class="suggestion-area">
+        <div class="suggestion">
+            <div class="image-container">
+                <img src="imagen_2.png" alt="Imagen 2">
+            </div>
+            <button class="visit-btn" onclick="visitPage('pagina1.html')">Visitar</button>
+        </div>
+        <div class="suggestion">
+            <div class="image-container">
+                <img src="imagen_8.png" alt="Imagen 3">
+            </div>
+            <button class="visit-btn" onclick="visitPage('pagina2.html')">Visitar</button>
+        </div>
     </div>
-    <div class="contenedor_2">
-        <img src="imagen_8.png" alt="" class="imagen_8">
-        <button class="boton_2"><b>Visitar</b></button>
-    </div>
-    <!--estructurando_informacion-->
-    <p class="parrafo_1">
-        <b>
-            Inicia con TIC es escribir el futuro, dar ese primer paso en el camino correcto.
-            Es cambiar y aprender todo lo necesario para navegar en Internet mientras mejoras
-            tu perfil laboral, ayudas a tu comunidad y descubres nuevos horizontes. ¡Es hora del
-            cambio! ¡Trece cursos virtuales hechos a tu medida y a tus necesidades!
-        </b>
-    </p>
-    <div class="contenedor_3">
-        <button class="boton_3"><b>¡Si ya tienes cuenta, ingresa aquí!</b></button>
-        <button class="boton_4"><b>Si no tienes cuenta, ingresa aquí</b></button>
-    </div>
-    <img src="imagen_3.png" alt="" class="imagen_3">
+    
 </body>
-
 </html>
