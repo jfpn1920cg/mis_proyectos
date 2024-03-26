@@ -149,27 +149,32 @@ body {
 }
 }
 /*estilizando_zona_de_sugerencia*/
+/* estilizando_zona_de_sugerencia */
 .suggestion-area {
     gap: 20px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Para que los elementos se ajusten en varias filas en dispositivos pequeños */
 }
+
 .suggestion {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .suggestion img {
     max-width: 100%;
     height: auto;
 }
+
 .visit-btn {
     padding: 8px 16px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 10px; /* Ajustamos el margen superior */
     transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
     border: none;
@@ -177,11 +182,32 @@ body {
     background-color: rgb(93, 93, 220);
     color: rgb(0, 0, 0);
 }
+
 .visit-btn:hover {
     transform: scale(1.05);
     color: rgb(220, 172, 0);
     background-color: rgb(59, 59, 143);
 }
+
+.paragraph {
+    max-width: 500px; /* Ajusta el ancho máximo según sea necesario */
+    text-align: justify; /* Justificar el texto */
+    font-weight: bold; /* Hacer el texto en negrita */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    text-align: center;
+    margin-top: 20px; /* Añadimos margen superior */
+    margin-bottom: 20px; /* Añadimos margen inferior */
+}
+
+.content-container img {
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
 @media screen and (max-width: 768px) {
     .suggestion-area {
         flex-direction: column;
@@ -191,6 +217,7 @@ body {
         margin-bottom: 20px;
     }
 }
+
 .image-container {
     max-width: 300px;
     padding: 20px;
@@ -198,10 +225,74 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(93, 93, 220); 
+    background-color: rgb(93, 93, 220);
 }
+
 .image-container img {
     width: 100%;
     margin-bottom: 20px;
     height: auto;
+}
+/*estilizando_carrusel_parte_2*/
+/* Estilos para el carrusel */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    flex: 0 0 auto;
+    text-align: center;
+    position: relative; /* Añadido */
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para los botones */
+.start-button {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #5D5DDC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilos para los indicadores */
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #5D5DDC;
 }

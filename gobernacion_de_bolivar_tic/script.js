@@ -50,3 +50,58 @@ startAutoSlide();
 function visitPage(url) {
   window.location.href = url;
 }
+//funcionalidad_carrusel_parte_2
+document.addEventListener("DOMContentLoaded", function() {
+  const carousel = document.querySelector(".carousel");
+  const slides = document.querySelectorAll(".slide");
+  const indicatorsContainer = document.querySelector(".indicators");
+
+  let currentIndex = 0;
+  let intervalId;
+
+  // Crear indicadores
+  slides.forEach((slide, index) => {
+      const indicator = document.createElement("div");
+      indicator.classList.add("indicator");
+      indicatorsContainer.appendChild(indicator);
+
+      indicator.addEventListener("click", () => {
+          goToSlide(index);
+      });
+  });
+
+  const indicators = document.querySelectorAll(".indicator");
+
+  // Función para avanzar al siguiente slide
+  function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      goToSlide(currentIndex);
+  }
+
+  // Función para ir a un slide específico
+  function goToSlide(index) {
+      slides.forEach((slide, i) => {
+          slide.style.transform = `translateX(-${index * 100}%)`;
+          indicators[i].classList.remove("active");
+      });
+
+      indicators[index].classList.add("active");
+      currentIndex = index;
+  }
+
+  // Iniciar el carrusel automáticamente
+  function startCarousel() {
+      intervalId = setInterval(nextSlide, 3000); // Cambia de slide cada 3 segundos
+  }
+
+  // Detener el carrusel cuando el usuario interactúa con él
+  function stopCarousel() {
+      clearInterval(intervalId);
+  }
+
+  carousel.addEventListener("mouseenter", stopCarousel);
+  carousel.addEventListener("mouseleave", startCarousel);
+
+  // Iniciar el carrusel
+  startCarousel();
+});
