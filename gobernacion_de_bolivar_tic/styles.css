@@ -148,33 +148,29 @@ body {
         object-fit: cover;
 }
 }
-/*estilizando_zona_de_sugerencia*/
-/* estilizando_zona_de_sugerencia */
+/*estilizando_zona_de_sugerencia_parte_1*/
 .suggestion-area {
     gap: 20px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Para que los elementos se ajusten en varias filas en dispositivos pequeños */
+    flex-wrap: wrap;
 }
-
 .suggestion {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .suggestion img {
     max-width: 100%;
     height: auto;
 }
-
 .visit-btn {
     padding: 8px 16px;
     border-radius: 5px;
-    margin-top: 10px; /* Ajustamos el margen superior */
+    margin-top: 10px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
     border: none;
@@ -182,32 +178,27 @@ body {
     background-color: rgb(93, 93, 220);
     color: rgb(0, 0, 0);
 }
-
 .visit-btn:hover {
     transform: scale(1.05);
     color: rgb(220, 172, 0);
     background-color: rgb(59, 59, 143);
 }
-
 .paragraph {
-    max-width: 500px; /* Ajusta el ancho máximo según sea necesario */
-    text-align: justify; /* Justificar el texto */
-    font-weight: bold; /* Hacer el texto en negrita */
+    max-width: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: justify;
+    font-weight: bold;
 }
-
 .content-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    margin-top: 20px; /* Añadimos margen superior */
-    margin-bottom: 20px; /* Añadimos margen inferior */
 }
-
 .content-container img {
-    display: block; /* Asegura que la imagen se muestre como un bloque */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin: 0 auto;
+    display: block;
 }
-
 @media screen and (max-width: 768px) {
     .suggestion-area {
         flex-direction: column;
@@ -217,7 +208,6 @@ body {
         margin-bottom: 20px;
     }
 }
-
 .image-container {
     max-width: 300px;
     padding: 20px;
@@ -227,72 +217,102 @@ body {
     align-items: center;
     background-color: rgb(93, 93, 220);
 }
-
 .image-container img {
     width: 100%;
     margin-bottom: 20px;
     height: auto;
 }
-/*estilizando_carrusel_parte_2*/
-/* Estilos para el carrusel */
-.carousel-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.carousel {
+/*estilizando_zona_de_sugerencia_parte_1*/
+.categories-area {
     display: flex;
-    transition: transform 0.5s ease;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-.slide {
-    min-width: 100%;
-    flex: 0 0 auto;
+.category {
+    margin: 20px;
+    max-width: 300px;
     text-align: center;
-    position: relative; /* Añadido */
 }
-
-.slide img {
-    max-width: 100%;
+.category img {
+    width: 100%;
+    border-radius: 10px;
     height: auto;
 }
-
-/* Estilos para los botones */
-.start-button {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 8px 16px;
-    background-color: #5D5DDC;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.category-title {
+    font-size: 1.2em;
+    margin-top: 10px;
     font-weight: bold;
+    text-align: justify;
 }
-
-/* Estilos para los indicadores */
-.indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
+.category-description {
+    margin-top: 5px;
+    text-align: justify;
 }
-
-.indicator {
-    width: 10px;
-    height: 10px;
-    background-color: #aaa;
-    border-radius: 50%;
-    margin: 0 5px;
+.category button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(93, 93, 220);
+    color: rgb(0, 0, 0);
+}
+.category button:hover {
+    transform: scale(1.05);
+    color: rgb(220, 172, 0);
+    background-color: rgb(59, 59, 143);
+}
+/*estilizando_publicidad*/
+img#image-22 {
+    max-width: 80%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
+    display: block; /* Evita el espacio adicional debajo de la imagen */
+    margin: auto; /* Centramos la imagen horizontalmente */
+    border-radius: 10px; /* Agregamos bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregamos sombra */
+}
+/*estilizando_pie_de_pagina*/
+/* Estilos para el pie de página */
+footer {
+    background-color: rgb(93, 93, 220); /* Color de fondo */
+    padding: 30px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido */
+    margin-top: 30px; /* Margen superior */
 }
 
-.indicator.active {
-    background-color: #5D5DDC;
+.footer-content {
+    display: flex; /* Utilizar flexbox para distribuir los elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en dispositivos pequeños */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+}
+
+.ministry-info,
+.contact-info,
+.legal-info,
+.social-media {
+    flex: 1 1 100%; /* Distribuir el espacio disponible */
+    max-width: 400px; /* Ancho máximo de cada sección */
+    text-align: justify; /* Alineación justificada */
+}
+
+.ministry-info h3,
+.contact-info h4,
+.legal-info h4,
+.social-media h4 {
+    text-align: left; /* Alineación izquierda para los títulos */
+}
+
+.footer-content a {
+    color: rgb(0, 0, 0); /* Color del texto de los enlaces */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+}
+
+@media screen and (min-width: 768px) {
+    .footer-content {
+        justify-content: space-between; /* Espacio uniforme entre los elementos */
+    }
 }
