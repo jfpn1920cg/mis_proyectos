@@ -1,0 +1,3 @@
+punto_de_control_4=rm_sala_1_tutorial_parte_10;
+cordenada_x_4=1557.998;
+cordenada_y_4=572;

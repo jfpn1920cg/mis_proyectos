@@ -1,0 +1,1 @@
+var punto_de_control_3, cordenada_x_3, cordenada_y_3;

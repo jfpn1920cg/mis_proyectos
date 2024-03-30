@@ -1,0 +1,1 @@
+texto="vuelve_a_intentarlo";

@@ -1,0 +1,3 @@
+acceso_27=rm_sala_12_barra_de_progreso;
+cordenada_x_27=871;
+cordenada_y_27=844;

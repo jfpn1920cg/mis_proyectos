@@ -1,0 +1,3 @@
+punto_de_control_2=rm_sala_1_tutorial_parte_6;
+cordenada_x_2=1342;
+cordenada_y_2=694;

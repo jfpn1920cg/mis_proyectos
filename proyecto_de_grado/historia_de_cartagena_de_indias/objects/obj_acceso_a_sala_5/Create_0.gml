@@ -1,0 +1,1 @@
+var acceso_5, cordenada_x_5, cordenada_y_5;

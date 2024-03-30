@@ -1,0 +1,3 @@
+acceso_30=rm_sala_15_barra_de_progreso;
+cordenada_x_30=387;
+cordenada_y_30=782;
