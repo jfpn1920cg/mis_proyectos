@@ -20,7 +20,7 @@
   ],
   "parent": {
     "name": "sala_22",
-    "path": "folders/Salas/sistema_del_juego/sala_22.yy",
+    "path": "folders/Salas/sistema_del_juego/desiciones/sala_22.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
