@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_sala_22_bloque_de_anuncioaprte_2",
+  "name": "obj_sala_22_bloque_de_anuncio_parte_2",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

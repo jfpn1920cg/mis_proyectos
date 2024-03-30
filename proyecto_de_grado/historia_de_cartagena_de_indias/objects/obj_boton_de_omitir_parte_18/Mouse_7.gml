@@ -5,5 +5,5 @@
 if !presionar exit;
 if texto=="omitir"
 {
-	room_goto(rm_sala_22);
+	room_goto(rm_sala_22_mision_parte_1);
 }
