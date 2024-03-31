@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InicioConTic</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Nuestros Cursos</title>
+    <link rel="stylesheet" href="nuestros_cursos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <script src="script.js" defer></script>
+    <script src="nuestros_cursos.js" defer></script>
 </head>
 <body>
     <!--estruturando_menu_de_navegacion-->
@@ -15,7 +15,7 @@
             <img src="imagen_1.png" alt="Logo">
         </div>
         <ul class="menu-list">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="nuestros_cursos.html">Nuestros cursos</a></li>
             <li><a href="#">Entérate</a></li>
             <li><a href="#">¿Necesitas ayuda?</a></li>
@@ -30,54 +30,12 @@
             <div class="line3"></div>
         </div>
     </nav>
-    <!--estruturando_carrusel-->
-    <div class="carousel">
-        <div class="slides">
-            <img src="imagen_6.png" alt="Slide 1">
-            <img src="imagen_5.png" alt="Slide 2">
-            <img src="imagen_4.png" alt="Slide 3">
-            <img src="imagen_7.png" alt="Slide 4">
-        </div>
-        <div class="controls">
-            <button class="prev">&#10094;</button>
-            <button class="next">&#10095;</button>
-            <div class="indicators">
-                <span class="indicator active"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
-            </div>
-        </div>
-    </div>
-    <!--estruturando_zona_de_sugerencia_parte_1-->
-    <div class="suggestion-area">
-        <div class="suggestion">
-            <div class="image-container">
-                <img src="imagen_2.png" alt="Imagen 2">
-            </div>
-            <button class="visit-btn" onclick="visitPage('pagina1.html')">Visitar</button>
-        </div>
-        <div class="suggestion">
-            <div class="image-container">
-                <img src="imagen_8.png" alt="Imagen 3">
-            </div>
-            <button class="visit-btn" onclick="visitPage('pagina2.html')">Visitar</button>
-        </div>
-        <div class="suggestion">
-            <div class="content-container">
-                <p class="paragraph">
-                    Inicia con TIC es escribir el futuro, dar ese primer paso en el camino correcto. Es cambiar y aprender todo lo necesario para navegar en Internet mientras mejoras tu perfil laboral, ayudas a tu comunidad y descubres nuevos horizontes. ¡Es hora del cambio! ¡Trece cursos virtuales hechos a tu medida y a tus necesidades!
-                </p>
-                <img src="imagen_3.png" alt="Imagen 3">
-                <button class="visit-btn" onclick="location.href='https//www.example.com/login'">¡Si ya tienes cuenta, ingresa aquí!</button>
-                <button class="visit-btn" onclick="location.href='https://www.example.com/register'">Si no tienes cuenta, ingresa aquí</button>
-            </div>
-        </div>        
-    </div>
     <!--estruturando_zona_de_sugerencia_parte_2-->
+    <div class="course-info">
+        <h2>Nuestros cursos</h2>
+        <p>Para principiantes o expertos, conoce los cursos que tenemos para ti. Elige uno o más de tu interés:</p>
+    </div>
     <div class="categories-area" id="categoriesArea"></div>
-    <!--estruturando_publicidad-->
-    <img src="imagen_22.png" alt="Imagen 22" id="image-22">
     <!--estructurando_pie_de_pagina-->
     <footer>
         <div class="footer-content">
@@ -106,6 +64,5 @@
         </p>
         <br>© Copyright 2024 - Todos los derechos reservados Gobierno de Colombia
     </footer>
-    
 </body>
 </html>
