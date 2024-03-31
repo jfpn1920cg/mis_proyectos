@@ -288,13 +288,13 @@ footer {
     gap: 20px; /* Espacio entre los elementos */
     justify-content: center; /* Centrar los elementos horizontalmente */
     align-items: center; /* Centrar los elementos verticalmente */
-    margin-left: -850px; /* Mover la estructura hacia la derecha */
 }
 
 .ministry-info {
     flex: 1 1 100%; /* Distribuir el espacio disponible */
     max-width: 400px; /* Ancho máximo de la sección */
     text-align: justify; /* Alineación justificada */
+    margin-left: 20px; /* Margen izquierdo para separarlo de los íconos */
 }
 
 .ministry-info h3 {
@@ -308,11 +308,9 @@ footer {
 .footer-content a {
     color: rgb(0, 0, 0); /* Color del texto de los enlaces */
     text-decoration: none; /* Eliminar subrayado de los enlaces */
-    margin: 0 20px; /* Espacio entre los iconos */
+    margin: 0 10px; /* Espacio entre los íconos */
 }
-.selda{
-    margin-left: -5px;
-}
+
 /* Estilos para los íconos de redes sociales */
 .footer-content a i {
     font-size: 24px; /* Tamaño de fuente de los iconos */
