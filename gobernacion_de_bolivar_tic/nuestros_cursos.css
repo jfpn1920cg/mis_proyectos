@@ -146,6 +146,42 @@ body {
         flex-basis: 100%;
     }
 }
+/*estilizando_zona_de_apoyo*/
+.help-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.help-item {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.help-item i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.help-item a {
+    font-size: 18px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.help-item a:hover {
+    color: rgb(220, 172, 0);
+}
+@media screen and (max-width: 768px) {
+    .help-section {
+        justify-content: flex-start;
+    }
+    .help-item {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+}
 /*estilizando_pie_de_pagina*/
 footer {
     padding: 30px 20px;
