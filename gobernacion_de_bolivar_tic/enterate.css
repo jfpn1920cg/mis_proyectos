@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/*estilizando_menu_de_navegacion*/
+.navbar {
+    padding: 10px 20px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(93, 93, 220);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.logo img {
+    width: 130px;
+}
+.menu-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.menu-list li {
+    margin-right: 20px;
+}
+.menu-list li a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.menu-list li a:hover {
+    color: rgb(220, 172, 0);
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    transition: transform 0.4s ease;
+    background-color: rgb(0, 0, 0);
+}
+.burger.active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.burger.active .line2 {
+    opacity: 0;
+}
+.burger.active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+@media screen and (max-width: 768px) {
+    .menu-list {
+        top: 40px;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        animation: fadeInOut 0.5s ease forwards;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(93, 93, 220);
+    }
+    .menu-list.active {
+        display: flex;
+    }
+    .menu-list li {
+        margin: 10px 0;
+    }
+    .burger {
+        display: block;
+    }
+}
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*estilizando_*/
+/*estilizando_zona_de_sugerencia_parte_2*/
+.categories-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.course-info {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.course-info h2, .course-info p {
+    text-align: justify;
+}
+.category {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+.category img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.category-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: justify;
+}
+.category-description {
+    margin-top: 5px;
+    text-align: justify;
+}
+.category button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(93, 93, 220);
+    color: rgb(0, 0, 0);
+}
+.category button:hover {
+    transform: scale(1.05);
+    color: rgb(220, 172, 0);
+    background-color: rgb(59, 59, 143);
+}
+@media screen and (max-width: 768px) {
+    .categories-area, .course-info {
+        flex-basis: 100%;
+    }
+}
+/* Estilos para el botón "Ver más" */
+.ver-mas-btn {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(93, 93, 220);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ver-mas-btn:hover {
+    background-color: rgb(59, 59, 143);
+}
+
+@media screen and (max-width: 768px) {
+    .categories-area {
+        flex-direction: column;
+    }
+}
+
+/*estilizando_pie_de_pagina*/
+footer {
+    padding: 30px 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(93, 93, 220);
+}
+.footer-content {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ministry-info {
+    max-width: 400px;
+    flex: 1 1 auto;
+    text-align: justify;
+}
+.ministry-info h3 {
+    text-align: left;
+}
+.footer-content p {
+    margin-bottom: 10px;
+}
+.footer-content a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer-content a i {
+    font-size: 24px;
+    transition: color 0.3s ease;
+    color: rgb(0, 0, 0);
+}
+.footer-content a:hover i {
+    color: rgb(220, 172, 0);
+}
+.selda {
+    margin-left: -5px;
+}
+.footer-content img {
+    max-width: 10%;
+}
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    .ministry-info, .footer-content a {
+        margin: 10px 0;
+    }
+}
