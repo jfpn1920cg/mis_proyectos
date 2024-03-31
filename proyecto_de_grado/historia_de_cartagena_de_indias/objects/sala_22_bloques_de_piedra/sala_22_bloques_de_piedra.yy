@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "sala_22_bloques_de_piedra",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_jugador_2_parte_2","path":"objects/obj_jugador_2_parte_2/obj_jugador_2_parte_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_jugador_3_parte_2","path":"objects/obj_jugador_3_parte_2/obj_jugador_3_parte_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
