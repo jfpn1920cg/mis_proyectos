@@ -5,13 +5,13 @@ body {
 /*estilizando_menu_de_navegacion*/
 .navbar {
     padding: 10px 20px;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(93, 93, 220);
     color: rgb(255, 255, 255);
-    position: relative; /* Añadimos posición relativa */
-    z-index: 2; /* Ajustamos z-index para asegurar que esté por encima del carrusel */
+    position: relative;
 }
 .logo img {
     width: 130px;
@@ -124,7 +124,6 @@ body {
     background: rgba(0, 0, 0, 0.5);
     color: rgb(255, 255, 255);
 }
-
 .indicators {
     margin-top: 10px;
     text-align: center;
@@ -267,69 +266,61 @@ body {
 }
 /*estilizando_publicidad*/
 img#image-22 {
-    max-width: 80%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
-    display: block; /* Evita el espacio adicional debajo de la imagen */
-    margin: auto; /* Centramos la imagen horizontalmente */
-    border-radius: 10px; /* Agregamos bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregamos sombra */
+    max-width: 80%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /*estilizando_pie_de_pagina*/
-/* Estilos para el pie de página */
 footer {
-    background-color: rgb(93, 93, 220); /* Color de fondo */
-    padding: 30px 20px; /* Espaciado interno */
-    text-align: center; /* Alineación del contenido */
-    margin-top: 10px; /* Mover el pie de página hacia abajo */
+    padding: 30px 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(93, 93, 220);
 }
-
 .footer-content {
-    display: flex; /* Utilizar flexbox para distribuir los elementos */
-    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en dispositivos pequeños */
-    gap: 20px; /* Espacio entre los elementos */
-    justify-content: center; /* Centrar los elementos horizontalmente */
-    align-items: center; /* Centrar los elementos verticalmente */
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
 .ministry-info {
-    flex: 1 1 100%; /* Distribuir el espacio disponible */
-    max-width: 400px; /* Ancho máximo de la sección */
-    text-align: justify; /* Alineación justificada */
-    margin-left: 20px; /* Margen izquierdo para separarlo de los íconos */
+    max-width: 400px;
+    flex: 1 1 auto;
+    text-align: justify;
 }
-
 .ministry-info h3 {
-    text-align: left; /* Alineación izquierda para el título */
+    text-align: left;
 }
-
 .footer-content p {
-    margin-bottom: 10px; /* Espacio entre los párrafos */
+    margin-bottom: 10px;
 }
-
 .footer-content a {
-    color: rgb(0, 0, 0); /* Color del texto de los enlaces */
-    text-decoration: none; /* Eliminar subrayado de los enlaces */
-    margin: 0 10px; /* Espacio entre los íconos */
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
-
-/* Estilos para los íconos de redes sociales */
 .footer-content a i {
-    font-size: 24px; /* Tamaño de fuente de los iconos */
-    color: rgb(0, 0, 0); /* Color de los iconos */
-    transition: color 0.3s ease; /* Transición suave del color */
+    font-size: 24px;
+    transition: color 0.3s ease;
+    color: rgb(0, 0, 0);
 }
-
-/* Cambio de color al pasar el mouse sobre los íconos */
 .footer-content a:hover i {
-    color: #ccc; /* Cambia a un color más claro */
+    color: rgb(220, 172, 0);
 }
-
+.selda {
+    margin-left: -5px;
+}
+.footer-content img {
+    max-width: 10%;
+}
 @media screen and (max-width: 768px) {
     .footer-content {
-        flex-direction: column; /* Apilar los elementos en dispositivos pequeños */
+        flex-direction: column;
     }
-
-    .ministry-info,
-    .footer-content a {
-        margin: 10px 0; /* Añadir espacio entre los elementos apilados */
+    .ministry-info, .footer-content a {
+        margin: 10px 0;
     }
 }
