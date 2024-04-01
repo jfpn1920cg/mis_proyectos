@@ -16,56 +16,175 @@ const categories = [
         description: 'Crea comunidades digitales para transformar tu vida y entorno'
     },
     {
-        image: 'imagen_12.png',
-        title: 'Formación en Internet para personas mayores',
-        description: '¡El ratón no muerde! Descubre el Internet paso a paso. Desde los aspectos más básicos, como las partes de un computador hasta la navegación. Viaja, infórmate y comunícate con los tuyos.'
+        image: 'imagen_27.jpg',
+        title: '31 de enero de 2024',
+        description: 'Cómo hacer búsquedas efectivas en Internet'
     },
     {
-        image: 'imagen_13.png',
-        title: 'Introducción al mundo digital',
-        description: 'Aprende a navegar en Internet desde cero y úsalo a tu medida, ya sea para comunicarte, trabajar, informarte, estudiar, ampliar las fronteras de tu negocio o entretenerte.'
+        image: 'imagen_28.jpg',
+        title: '24 de enero de 2024',
+        description: 'Activa tu poder digital con Inicia con TIC'
     },
     {
-        image: 'imagen_14.png',
-        title: 'Soy un profe TIC: Comparte con el mundo tus conocimientos TIC',
-        description: 'Utiliza Internet y las tecnologías como instrumentos de transformación social, aprendiendo los primeros pasos para enseñar a tu comunidad a usar estas herramientas'
+        image: 'imagen_29.jpg',
+        title: '17 de enero de 2024',
+        description: 'MinTIC busca promover la inclusión de personas con discapacidad visual a través de programas de formación'
     },
     {
-        image: 'imagen_15.png',
-        title: 'Sácale provecho a tus dispositivos móviles: celulares, tabletas y computadores portátiles',
-        description: 'Aprende cómo sacarle provecho al celular, las tabletas o los computadores portátiles, de acuerdo a tus necesidades. Puedes vender, crear contenidos, ayudar a tu comunidad y más.'
+        image: 'imagen_30.jpg',
+        title: '10 de enero de 2024',
+        description: '10 consejos para navegar seguro en Internet'
     },
     {
-        image: 'imagen_16.png',
-        title: 'Transforma tu mundo con internet: paso a paso del activismo digital',
-        description: 'Aprende a utilizar Internet como motor de oportunidades y cambios positivos para tu comunidad. Conoce herramientas para la educación y movilización social en Internet.'
+        image: 'imagen_31.jpg',
+        title: '03 de enero de 2024',
+        description: 'Conoce cómo hacer compras seguras en Internet'
     },
     {
-        image: 'imagen_17.png',
-        title: 'Ciberperiodismo comunitario a tu alcance',
-        description: 'Conoce la importancia de los medios digitales con enfoque comunitario y aprende claves y herramientas de diseño, edición de audio y video para ejercer el ciberperiodismo.'
+        image: 'imagen_32.png',
+        title: '19 de diciembre de 2023',
+        description: '¿Miedo a usar la banca virtual? Aquí te decimos cómo hacerlo de manera segura'
     },
     {
-        image: 'imagen_18.png',
-        title: 'Las TIC aliadas fundamentales para el teletrabajo, trabajo en casa y trabajo remoto',
-        description: 'Aprende todo lo que necesitas sobre trabajar en casa, o dónde quieras, desde cómo gestionar tu propio tiempo hasta qué herramientas digitales utilizar.'
+        image: 'imagen_33.png',
+        title: '15 de noviembre de 2023',
+        description: '¿Miedo a usar la banca virtual? Aquí te decimos cómo hacerlo de manera segura'
     },
     {
-        image: 'imagen_19.png',
-        title: 'Aprende a usar internet fácilmente',
-        description: 'Aprende a utilizar herramientas, plataformas y aplicaciones en tu vida diaria para comunicarte con el mundo. Internet te ofrece oportunidades infinitas. ¡Desarrolla tus habilidades según tus necesidades y aprovecha al máximo esta nueva era digital!'
+        image: 'imagen_34.png',
+        title: '08 de noviembre de 2023',
+        description: '¿Qué es un código QR y qué necesito para leerlo?'
     },
     {
-        image: 'imagen_20.png',
-        title: 'Cómo hacer trámites por internet con el estado',
-        description: 'Ahorra tiempo y conoce cómo comunicarte con las entidades del Estado. Aprende sobre el gobierno digital, el Sistema único de Información de Trámites y Servicios y mucho más.'
+        image: 'imagen_35.png',
+        title: '20 de octubre de 2023',
+        description: 'Webinar: Aprende a cuidarte en el mundo digital: Ciberseguridad a tu alcance'
     },
     {
-        image: 'imagen_21.png',
-        title: 'Aprende a cuidarte en el mundo digital',
-        description: 'Conoce cómo cuidar tus datos personales, evita estafas y suplantaciones de identidad, aprende sobre salud digital y ciberadicción, y navega tranquilo.'
+        image: 'imagen_36.png',
+        title: '17 de octubre de 2023',
+        description: '5 claves para proteger su información en Internet'
     },
-    
+    {
+        image: 'imagen_37.png',
+        title: '13 de octubre de 2023',
+        description: 'El Abuelo: un adulto mayor que decidió transformar su vida con las TIC'
+    },
+    {
+        image: 'imagen_38.png',
+        title: '04 de octubre de 2023',
+        description: 'Cómo usar las TIC al servicio del campo'
+    },
+    {
+        image: 'imagen_39.png',
+        title: '26 de septiembre de 2023',
+        description: 'Sácale provecho a tu celular: una herramienta útil para aprender'
+    },
+    {
+        image: 'imagen_40.png',
+        title: '27 de febrero de 2023',
+        description: 'Sácale provecho a Internet y accede a un mundo de posibilidades con las aplicaciones'
+    },
+    {
+        image: 'imagen_41.png',
+        title: '13 de febrero de 2023',
+        description: 'Salomé Ramos y José Batero, dos influenciadores que utilizan las TIC para cuidar el medio ambiente'
+    },
+    {
+        image: 'imagen_42.png',
+        title: '06 de febrero de 2023',
+        description: '¿Buscando empleo a través de Internet?'
+    },
+    {
+        image: 'imagen_43.png',
+        title: '30 de enero de 2023',
+        description: 'Crea comunidades digitales para transformar tu vida y entorno'
+    },
+    {
+        image: 'imagen_44.png',
+        title: '23 de enero de 2023',
+        description: 'Cómo hacer búsquedas efectivas en Internet'
+    },
+    {
+        image: 'imagen_45.png',
+        title: '16 de enero de 2023',
+        description: 'Llegamos Con TIC le enseña a hacer reuniones virtuales'
+    },
+    {
+        image: 'imagen_46.png',
+        title: '09 de enero de 2023',
+        description: 'MinTIC busca promover la inclusión de personas con discapacidad visual a través de'
+    },
+    {
+        image: 'imagen_47.png',
+        title: '02 de enero de 2023',
+        description: 'Activa tu poder digital con Llegamos Con TIC'
+    },
+    {
+        image: 'imagen_48.png',
+        title: '29 de diciembre de 2022',
+        description: 'Pasión por la enseñanza y por las TIC una combinación que transforma vidas'
+    },
+    {
+        image: 'imagen_49.png',
+        title: '26 de diciembre de 2022',
+        description: 'Luis Carlos, el profe TIC de Manizales'
+    },
+    {
+        image: 'imagen_50.png',
+        title: '22 de diciembre de 2022',
+        description: 'Tiana, una activista que se mueve al ritmo de la radio y la tecnología'
+    },
+    {
+        image: 'imagen_51.png',
+        title: '20 de diciembre de 2022',
+        description: 'Los rostros de las Brigadas TIC en la comunidad indígena San José Kilómetro Seis'
+    },
+    {
+        image: 'imagen_52.png',
+        title: '19 de diciembre de 2022',
+        description: 'Rafael Caicedo, la voz del Chocó en YouTube'
+    },
+    {
+        image: 'imagen_53.png',
+        title: '12 de diciembre de 2022',
+        description: '“Chat, hola maestro” un proyecto para educar a través de la tecnología'
+    },
+    {
+        image: 'imagen_54.png',
+        title: '29 de noviembre de 2022',
+        description: 'Aquí te enseñamos a crear un correo electrónico'
+    },
+    {
+        image: 'imagen_55.png',
+        title: '24 de noviembre de 2022',
+        description: 'Haga crecer su negocio llevándolo al mundo digital'
+    },
+    {
+        image: 'imagen_56.png',
+        title: '18 de noviembre de 2022',
+        description: 'Las TIC le cambiaron la vida al profe Hermenegildo Estrella'
+    },
+    {
+        image: 'imagen_57.png',
+        title: '18 de noviembre de 2022',
+        description: 'Brigadas TIC en Leticia, Amazonas: historias de perseverancia e Internet'
+    },
+    {
+        image: 'imagen_58.png',
+        title: '16 de noviembre de 2022',
+        description: 'Cuenta historias con imágenes y llévalas al mundo digital'
+    },
+    {
+        image: 'imagen_59.png',
+        title: '13 de noviembre de 2022',
+        description: 'Transformación digital para Juntas de Acción Comunal'
+    },
+    {
+        image: 'imagen_60.png',
+        title: '01 de noviembre de 2022',
+        description: 'Crea y emprende en Internet'
+    },
 ];
 function createCategories() {
     const categoriesArea = document.getElementById('categoriesArea');
