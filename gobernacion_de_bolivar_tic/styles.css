@@ -147,6 +147,57 @@ body {
         object-fit: cover;
 }
 }
+/*estilizando_zona_de_perfiles*/
+/* Estilos para la Directora TIC */
+.director-tic {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.director-tic img {
+    max-width: 30%;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: -125px;
+    height: auto;
+}
+
+.director-tic h2 {
+    margin-top: 40px;
+    margin-left: -1100px; /* Agregamos margen izquierdo */
+}
+
+.director-tic h3 {
+    margin-top: 20px;
+}
+
+.director-tic p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.director-tic button.preview-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(93, 93, 220);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.director-tic button.preview-button:hover {
+    background-color: rgb(59, 59, 143);
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos adicionales para dispositivos pequeños si es necesario */
+    .director-tic img {
+        margin-top: 10px;
+    }
+}
+
 /*estilizando_zona_de_sugerencia_parte_1*/
 .suggestion-area {
     gap: 20px;
@@ -275,52 +326,17 @@ img#image-22 {
 /*estilizando_pie_de_pagina*/
 footer {
     padding: 30px 20px;
-    margin-top: 10px;
+    margin-top: 60px;
     text-align: center;
     background-color: rgb(93, 93, 220);
 }
-.footer-content {
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.ministry-info {
-    max-width: 400px;
-    flex: 1 1 auto;
-    text-align: justify;
-}
-.ministry-info h3 {
-    text-align: left;
-}
-.footer-content p {
-    margin-bottom: 10px;
-}
-.footer-content a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.footer-content a i {
-    font-size: 24px;
-    transition: color 0.3s ease;
-    color: rgb(0, 0, 0);
-}
-.footer-content a:hover i {
-    color: rgb(220, 172, 0);
-}
-.selda {
-    margin-left: -5px;
-}
-.footer-content img {
-    max-width: 10%;
+footer img {
+    max-width: 100%;
+    margin-top: -80px;
+    border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-    }
-    .ministry-info, .footer-content a {
-        margin: 10px 0;
+    footer img {
+        margin-top: -40px;
     }
 }
