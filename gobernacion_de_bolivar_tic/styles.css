@@ -227,32 +227,38 @@ body {
     }
 }
 /*estilizando_zona_de_perfiles_parte_2*/
+/* Estilos para la zona de perfiles */
 .director-tic_parte_2 {
     margin-bottom: 30px;
     text-align: center;
     margin-top: 200px;
     margin-left: 190px;
 }
+
 .director-tic_parte_2 .profile-info_parte_2 {
     display: flex;
     align-items: flex-start;
 }
+
 .director-tic_parte_2 .profile-info_parte_2 img {
     max-width: 60%;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 115px;
     height: auto;
 }
+
 .director-tic_parte_2 .profile-info_parte_2 h3 {
-    margin-left: 10px;
+    margin-left: -85px;
     text-align: justify;
 }
+
 .director-tic_parte_2 .profile-info_parte_2 p {
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: -95px;
     width: 400px;
     text-align: justify;
 }
+
 .director-tic_parte_2 button.preview-button_parte_2 {
     padding: 10px 20px;
     border-radius: 5px;
@@ -263,27 +269,40 @@ body {
     background-color: rgb(93, 93, 220);
     color: white;
 }
-.director-tic button.preview-button:hover {
+
+.director-tic_parte_2 button.preview-button:hover {
     background-color: rgb(59, 59, 143);
 }
+
 @media screen and (max-width: 768px) {
+    /* Estilos adicionales para dispositivos pequeños */
+    .director-tic_parte_2 {
+        margin-top: -200px; /* Reducir el margen superior en dispositivos pequeños */
+        margin-left: 0; /* Eliminar el margen izquierdo en dispositivos pequeños */
+    }
+
     .director-tic_parte_2 .profile-info_parte_2 {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column; /* Cambiar a dirección de columna en dispositivos móviles */
+        align-items: center; /* Centrar elementos horizontalmente en dispositivos móviles */
     }
+
     .director-tic_parte_2 .profile-info_parte_2 img {
-        max-width: 95%;
-        margin-left: 15;
-        margin-bottom: 10px;
+        max-width: 95%; /* Ajustar el tamaño máximo de la imagen para dispositivos móviles */
+        margin-left: 0; /* Eliminar el margen a la izquierda en dispositivos móviles */
+        margin-top: -630px;
     }
-    .director-tic_parte_2 .profile-info_parte_2 h3 {
-        text-align: center;
+
+    .director-tic_parte_2 .profile-info_parte_2 h3{
+        margin-left: 10px; /* Eliminar el margen izquierdo en dispositivos móviles */
+        margin-top: 600px;
+        width: 95%; /* Ajustar el ancho del párrafo al contenedor en dispositivos móviles */
     }
     .director-tic_parte_2 .profile-info_parte_2 p {
-        margin-right: 0;
-        width: 390px;
+        margin-left: 10px; /* Eliminar el margen izquierdo en dispositivos móviles */
+        width: 95%; /* Ajustar el ancho del párrafo al contenedor en dispositivos móviles */
     }
 }
+
 /*estilizando_zona_de_sugerencia_parte_1*/
 .suggestion-area {
     gap: 20px;
@@ -338,7 +357,7 @@ body {
     .suggestion-area {
         flex-direction: column;
         align-items: center;
-        margin-top: -30px;
+        margin-top: 200px;
     }
     .suggestion {
         margin-bottom: 20px;
