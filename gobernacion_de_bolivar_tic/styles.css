@@ -147,60 +147,147 @@ body {
         object-fit: cover;
 }
 }
-/*estilizando_zona_de_perfiles*/
-/* Estilos para la Directora TIC */
+/*estilizando_zona_de_perfiles_parte_1*/
 .director-tic {
-    text-align: center;
     margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
 }
-
-.director-tic img {
+.director-tic .profile-info {
+    display: flex;
+    align-items: flex-start;
+}
+.director-tic .profile-info img {
     max-width: 30%;
     border-radius: 5px;
-    margin-top: -5px;
-    margin-left: -125px;
+    margin-left: 10px;
     height: auto;
 }
-
-.director-tic h2 {
-    margin-top: 40px;
-    margin-left: -1100px; /* Agregamos margen izquierdo */
-}
-
-.director-tic h3 {
-    margin-top: 20px;
-}
-
-.director-tic p {
-    margin-top: 20px;
+.director-tic .profile-info h3 {
+    margin-left: 10px;
     text-align: justify;
 }
-
+.director-tic .profile-info p {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 400px;
+    text-align: justify;
+}
+.parrafo-lateral{
+    margin-top: -442.5px;
+    margin-left: 840px;
+    width: 400px;
+    text-align: justify;
+}
 .director-tic button.preview-button {
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
+    margin-top: 130px;
+    margin-left: 385px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
     background-color: rgb(93, 93, 220);
     color: white;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
 }
-
 .director-tic button.preview-button:hover {
     background-color: rgb(59, 59, 143);
 }
-
 @media screen and (max-width: 768px) {
-    /* Estilos adicionales para dispositivos pequeños si es necesario */
-    .director-tic img {
-        margin-top: 10px;
+    .director-tic .profile-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .director-tic .profile-info img {
+        max-width: 95%;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .director-tic .profile-info h3 {
+        text-align: center;
+        margin-left: 115px;
+    }
+    .director-tic .profile-info p {
+        margin-right: 0;
+        width: 390px;
+        margin-left: 100px;
+    }
+    .parrafo-lateral{
+        margin-right: 0;
+        width: 390px;
+        margin-left: 99px;
+        margin-top: -330px;
+        text-align: justify;
+    }
+    .director-tic .profile-info button {
+        margin-right: 0;
+        width: 390px;
+        margin-left: 100px;
+        margin-top: 260px;
     }
 }
-
+/*estilizando_zona_de_perfiles_parte_2*/
+.director-tic_parte_2 {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 190px;
+}
+.director-tic_parte_2 .profile-info_parte_2 {
+    display: flex;
+    align-items: flex-start;
+}
+.director-tic_parte_2 .profile-info_parte_2 img {
+    max-width: 60%;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: auto;
+}
+.director-tic_parte_2 .profile-info_parte_2 h3 {
+    margin-left: 10px;
+    text-align: justify;
+}
+.director-tic_parte_2 .profile-info_parte_2 p {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 400px;
+    text-align: justify;
+}
+.director-tic_parte_2 button.preview-button_parte_2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(93, 93, 220);
+    color: white;
+}
+.director-tic button.preview-button:hover {
+    background-color: rgb(59, 59, 143);
+}
+@media screen and (max-width: 768px) {
+    .director-tic_parte_2 .profile-info_parte_2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .director-tic_parte_2 .profile-info_parte_2 img {
+        max-width: 95%;
+        margin-left: 15;
+        margin-bottom: 10px;
+    }
+    .director-tic_parte_2 .profile-info_parte_2 h3 {
+        text-align: center;
+    }
+    .director-tic_parte_2 .profile-info_parte_2 p {
+        margin-right: 0;
+        width: 390px;
+    }
+}
 /*estilizando_zona_de_sugerencia_parte_1*/
 .suggestion-area {
     gap: 20px;
+    margin-top: -130px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -221,7 +308,6 @@ body {
     padding: 8px 16px;
     border-radius: 5px;
     margin-top: 10px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
     border: none;
     font-weight: bold;
@@ -229,13 +315,12 @@ body {
     color: rgb(0, 0, 0);
 }
 .visit-btn:hover {
-    transform: scale(1.05);
     color: rgb(220, 172, 0);
     background-color: rgb(59, 59, 143);
 }
 .paragraph {
     max-width: 500px;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 20px;
     text-align: justify;
     font-weight: bold;
@@ -253,6 +338,7 @@ body {
     .suggestion-area {
         flex-direction: column;
         align-items: center;
+        margin-top: -30px;
     }
     .suggestion {
         margin-bottom: 20px;
@@ -303,7 +389,6 @@ body {
     border-radius: 5px;
     margin-top: 10px;
     width: 100%;
-    transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
     border: none;
     font-weight: bold;
@@ -311,7 +396,6 @@ body {
     color: rgb(0, 0, 0);
 }
 .category button:hover {
-    transform: scale(1.05);
     color: rgb(220, 172, 0);
     background-color: rgb(59, 59, 143);
 }
