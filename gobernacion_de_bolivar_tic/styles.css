@@ -56,7 +56,7 @@ body {
 }
 @media screen and (max-width: 768px) {
     .menu-list {
-        top: 40px;
+        top: 50px;
         left: 0;
         right: 0;
         padding: 10px;
@@ -226,39 +226,113 @@ body {
         margin-top: 260px;
     }
 }
+/*estilizando_ventana_evergente_parte_1*/
+.modal {
+    margin-top: -45px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120%;
+    display: none;
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+    padding: 150px;
+    width: 80%;
+    height: 120px;
+    max-width: 600px;
+    border-radius: 5px;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background-color: rgb(93, 93, 220);
+}
+.content-close{
+    margin-top: -147px;
+}
+.close {
+    margin-left: 725px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.close:hover, .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(220, 172, 0);
+}
+.modal-content img {
+    max-width: 50%;
+    border-radius: 5px;
+    margin-top: -2px;
+    margin-left: -140px;
+    height: auto;
+}
+.modal-content h3{
+    margin-left: 165px;
+    margin-top: -383px;
+}
+.modal-content p{
+    width: 570px;
+    margin-left: 170px;
+    margin-top: -10px;
+    text-align: justify;
+}
+@media screen and (max-width: 768px) {
+    .modal-content {
+        padding: 30px;
+        width: 90%;
+        height: 930px;
+        max-width: none;
+        margin: 10% auto;
+    }
+    .modal-content img {
+        max-width: 100%;
+        margin: 0 auto 20px;
+    }
+    .modal-content h3 {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .modal-content p {
+        width: 100%;
+        margin: 0 auto 20px;
+        text-align: justify;
+    }
+    .close {
+        margin: 0 auto 20px;
+        display: block;
+        text-align: center;
+    }
+}
 /*estilizando_zona_de_perfiles_parte_2*/
-/* Estilos para la zona de perfiles */
 .director-tic_parte_2 {
     margin-bottom: 30px;
-    text-align: center;
     margin-top: 200px;
     margin-left: 190px;
+    text-align: center;
 }
-
 .director-tic_parte_2 .profile-info_parte_2 {
     display: flex;
     align-items: flex-start;
 }
-
 .director-tic_parte_2 .profile-info_parte_2 img {
     max-width: 60%;
     border-radius: 5px;
     margin-left: 115px;
     height: auto;
 }
-
 .director-tic_parte_2 .profile-info_parte_2 h3 {
     margin-left: -85px;
     text-align: justify;
 }
-
 .director-tic_parte_2 .profile-info_parte_2 p {
     margin-top: 0px;
     margin-left: -95px;
     width: 400px;
     text-align: justify;
 }
-
 .director-tic_parte_2 button.preview-button_parte_2 {
     padding: 10px 20px;
     border-radius: 5px;
@@ -269,40 +343,119 @@ body {
     background-color: rgb(93, 93, 220);
     color: white;
 }
-
 .director-tic_parte_2 button.preview-button:hover {
     background-color: rgb(59, 59, 143);
 }
-
 @media screen and (max-width: 768px) {
-    /* Estilos adicionales para dispositivos pequeños */
     .director-tic_parte_2 {
-        margin-top: -200px; /* Reducir el margen superior en dispositivos pequeños */
-        margin-left: 0; /* Eliminar el margen izquierdo en dispositivos pequeños */
+        margin-top: -200px;
+        margin-left: 0;
     }
-
     .director-tic_parte_2 .profile-info_parte_2 {
-        flex-direction: column; /* Cambiar a dirección de columna en dispositivos móviles */
-        align-items: center; /* Centrar elementos horizontalmente en dispositivos móviles */
+        flex-direction: column;
+        align-items: center;
     }
-
     .director-tic_parte_2 .profile-info_parte_2 img {
-        max-width: 95%; /* Ajustar el tamaño máximo de la imagen para dispositivos móviles */
-        margin-left: 0; /* Eliminar el margen a la izquierda en dispositivos móviles */
-        margin-top: -630px;
+        max-width: 95%;
+        margin-left: 0;
+        margin-top: -660px;
     }
-
     .director-tic_parte_2 .profile-info_parte_2 h3{
-        margin-left: 10px; /* Eliminar el margen izquierdo en dispositivos móviles */
+        margin-left: 10px;
         margin-top: 600px;
-        width: 95%; /* Ajustar el ancho del párrafo al contenedor en dispositivos móviles */
+        width: 95%;
     }
     .director-tic_parte_2 .profile-info_parte_2 p {
-        margin-left: 10px; /* Eliminar el margen izquierdo en dispositivos móviles */
-        width: 95%; /* Ajustar el ancho del párrafo al contenedor en dispositivos móviles */
+        margin-left: 10px;
+        width: 400px;
+    }
+    .director-tic_parte_2 button.preview-button_parte_2 {
+        margin-right: 0;
+        width: 390px;
+        margin-left: 8px;
+        margin-top: -260px;
     }
 }
-
+/*estilizando_ventana_evergente_parte_2*/
+.modal_parte_2 {
+    margin-top: -75px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120%;
+    display: none;
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content_parte_2 {
+    padding: 150px;
+    width: 80%;
+    height: 120px;
+    max-width: 600px;
+    border-radius: 5px;
+    margin: 15% auto;
+    border: 1px solid #888;
+    background-color: rgb(93, 93, 220);
+}
+.content-close_parte_2{
+    margin-top: -147px;
+}
+.close_parte_2 {
+    margin-left: 725px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.close_parte_2:hover, .close_parte_2:focus {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(220, 172, 0);
+}
+.modal-content_parte_2 img {
+    max-width: 65%;
+    border-radius: 5px;
+    margin-top: -2px;
+    margin-left: -140px;
+    height: auto;
+}
+.modal-content_parte_2 h3{
+    margin-left: 255px;
+    margin-top: -270px;
+}
+.modal-content_parte_2 p{
+    width: 480px;
+    margin-left: 260px;
+    margin-top: -10px;
+    text-align: justify;
+}
+@media screen and (max-width: 768px) {
+    .modal-content_parte_2 {
+        padding: 30px;
+        width: 90%;
+        height: 930px;
+        margin: 10% auto;
+        max-width: none;
+    }
+    .modal-content_parte_2 img {
+        max-width: 100%;
+        margin: 0 auto 20px;
+    }
+    .modal-content_parte_2 h3 {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .modal-content_parte_2 p {
+        width: 100%;
+        margin: 0 auto 20px;
+        text-align: justify;
+    }
+    .close_parte_2{
+        margin: 0 auto 20px;
+        display: block;
+        text-align: center;
+    }
+}
 /*estilizando_zona_de_sugerencia_parte_1*/
 .suggestion-area {
     gap: 20px;
@@ -357,7 +510,7 @@ body {
     .suggestion-area {
         flex-direction: column;
         align-items: center;
-        margin-top: 200px;
+        margin-top: 300px;
     }
     .suggestion {
         margin-bottom: 20px;

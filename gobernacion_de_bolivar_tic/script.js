@@ -46,6 +46,36 @@ indicators.forEach((indicator, index) => {
     });
 });
 startAutoSlide();
+//funcionalidad__ventana_evergente_parte_1
+var previewButton = document.querySelector(".preview-button");
+var modal = document.querySelector(".modal");
+var closeButton = document.querySelector(".close");
+previewButton.addEventListener("click", function() {
+    modal.style.display = "block";
+});
+closeButton.addEventListener("click", function() {
+    modal.style.display = "none";
+});
+window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+});
+//funcionalidad__ventana_evergente_parte_2
+var previewButton2 = document.querySelector(".preview-button_parte_2");
+var modal2 = document.querySelector(".modal_parte_2");
+var closeButton2 = document.querySelector(".close_parte_2");
+previewButton2.addEventListener("click", function() {
+    modal2.style.display = "block";
+});
+closeButton2.addEventListener("click", function() {
+    modal2.style.display = "none";
+});
+window.addEventListener("click", function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+});
 //funcionalidad_zona_de_sugerencia_parte_1
 function visitPage(url) {
   window.location.href = url;
@@ -146,5 +176,5 @@ function createCategories() {
 document.addEventListener('DOMContentLoaded', createCategories);
 //funcionalidad_publicidad
 document.getElementById("image-22").addEventListener("click", function() {
-    window.location.href = "https://www.ejemplo.com/pagina"; // Cambia la URL a la que deseas dirigir al usuario
+    window.location.href = "https://www.ejemplo.com/pagina";
 });
