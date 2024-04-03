@@ -119,12 +119,32 @@ body {
     transform: translateX(-50%);
     transition: background-color 0.3s ease;
     border: none;
+    font-weight: bold;
     cursor: pointer;
     color: #fff;
     background-color: rgb(93, 93, 220);
 }
 .visit-btn:hover {
-    background-color: rgb(59, 59, 143);
+    color: rgb(220, 172, 0);
+}
+#shareSection {
+    margin-top: 20px;
+    text-align: center;
+}
+#shareSection p {
+    margin-bottom: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: rgb(93, 93, 220);
+}
+.social-icon:hover {
+    color: rgb(220, 172, 0);
 }
 /*estilizando_pie_de_pagina*/
 footer {
