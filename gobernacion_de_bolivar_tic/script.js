@@ -161,28 +161,21 @@ document.addEventListener('DOMContentLoaded', function() {
             paragraph: 'Conoce cómo cuidar tus datos personales, evita estafas y suplantaciones de identidad, aprende sobre salud digital y ciberadicción, y navega tranquilo.',
             button: 'inicio con tic'
         }
-        // Agrega más categorías si es necesario
     ];
-
     const categoryList = document.getElementById('categoryList');
-
     categories.forEach(category => {
         const listItem = document.createElement('li');
-
         const image = document.createElement('img');
         image.src = category.image;
         listItem.appendChild(image);
-
         const subtitle = document.createElement('div');
         subtitle.classList.add('subtitle');
         subtitle.textContent = category.subtitle;
         listItem.appendChild(subtitle);
-
         const paragraph = document.createElement('p');
         paragraph.classList.add('paragraph');
         paragraph.textContent = category.paragraph;
         listItem.appendChild(paragraph);
-
         const button = document.createElement('button');
         button.classList.add('button');
         button.textContent = category.button;
@@ -190,11 +183,9 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(`Iniciar con TIC en ${category.subtitle}`);
         });
         listItem.appendChild(button);
-
         categoryList.appendChild(listItem);
     });
 });
-
 //funcionalidad_publicidad
 document.getElementById("image-22").addEventListener("click", function() {
     window.location.href = "https://www.ejemplo.com/pagina";
