@@ -544,6 +544,7 @@ body {
     padding: 20px;
     width: calc(33.33% - 20px);
     border: 1px solid #ccc;
+    background-color: rgb(93, 93, 220);
 }
 #categoryList img {
     max-width: 100%;

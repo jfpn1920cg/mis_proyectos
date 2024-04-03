@@ -14,7 +14,7 @@ const categories = [
     {
         image: 'imagen_10.png',
         title: 'Navegando Juntos: Formación en Internet para personas mayores en el mundo rural.',
-        description: 'Descubre el potencial de las TIC para el campo, conecta con nuevas oportunidades y comparte tus tradiciones con las generaciones futuras. ¡Prepárate para una aventura digital!'
+        description: '"Navegando Juntos" es un programa para capacitar a personas mayores en el mundo rural en el uso de tecnología. Busca conectar a estas comunidades con nuevas oportunidades digitales y preservar tradiciones.'
     },
     {
         image: 'imagen_11.png',
