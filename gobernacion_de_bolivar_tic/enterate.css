@@ -56,7 +56,7 @@ body {
 }
 @media screen and (max-width: 768px) {
     .menu-list {
-        top: 40px;
+        top: 50px;
         left: 0;
         right: 0;
         padding: 10px;
@@ -90,7 +90,6 @@ body {
         transform: translateY(0);
     }
 }
-/*estilizando_*/
 /*estilizando_zona_de_sugerencia_parte_2*/
 .categories-area {
     display: flex;
@@ -174,52 +173,17 @@ body {
 /*estilizando_pie_de_pagina*/
 footer {
     padding: 30px 20px;
-    margin-top: 10px;
+    margin-top: 60px;
     text-align: center;
     background-color: rgb(93, 93, 220);
 }
-.footer-content {
-    gap: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.ministry-info {
-    max-width: 400px;
-    flex: 1 1 auto;
-    text-align: justify;
-}
-.ministry-info h3 {
-    text-align: left;
-}
-.footer-content p {
-    margin-bottom: 10px;
-}
-.footer-content a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.footer-content a i {
-    font-size: 24px;
-    transition: color 0.3s ease;
-    color: rgb(0, 0, 0);
-}
-.footer-content a:hover i {
-    color: rgb(220, 172, 0);
-}
-.selda {
-    margin-left: -5px;
-}
-.footer-content img {
-    max-width: 10%;
+footer img {
+    max-width: 100%;
+    margin-top: -80px;
+    border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-    }
-    .ministry-info, .footer-content a {
-        margin: 10px 0;
+    footer img {
+        margin-top: -40px;
     }
 }

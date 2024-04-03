@@ -531,45 +531,51 @@ body {
     height: auto;
 }
 /*estilizando_zona_de_sugerencia_parte_2*/
-.categories-area {
+#categoryList {
+    padding: 15px;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.category {
-    margin: 20px;
-    max-width: 300px;
-    text-align: center;
+#categoryList li {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    border: 1px solid #ccc;
 }
-.category img {
-    width: 100%;
-    border-radius: 10px;
+#categoryList img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
     height: auto;
 }
-.category-title {
-    font-size: 1.2em;
-    margin-top: 10px;
+#categoryList .subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
     font-weight: bold;
-    text-align: justify;
 }
-.category-description {
-    margin-top: 5px;
-    text-align: justify;
+#categoryList .paragraph {
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: normal;
 }
-.category button {
+#categoryList .button {
     padding: 8px 16px;
     border-radius: 5px;
-    margin-top: 10px;
-    width: 100%;
+    margin: 10px auto;
     cursor: pointer;
     border: none;
     font-weight: bold;
-    background-color: rgb(93, 93, 220);
-    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    background-color: #337ab7;
+    color: #fff;
 }
-.category button:hover {
-    color: rgb(220, 172, 0);
-    background-color: rgb(59, 59, 143);
+#categoryList .button:hover {
+    background-color: #23527c;
 }
 /*estilizando_publicidad*/
 img#image-22 {

@@ -1,3 +1,9 @@
+//funcionalidad_menu_de_navegacion
+const burger = document.querySelector('.burger');
+const menuList = document.querySelector('.menu-list');
+burger.addEventListener('click', () => {
+    menuList.classList.toggle('active');
+});
 //funcionalidad_zona_de_sugerencia_parte_2
 const categories = [
     {
@@ -73,17 +79,17 @@ const categories = [
     {
         image: 'imagen_38.png',
         title: '04 de octubre de 2023',
-        description: 'Cómo usar las TIC al servicio del campo'
+        description: 'Cómo usar las TIC al servicio del campo tecnologico.'
     },
     {
         image: 'imagen_39.png',
         title: '26 de septiembre de 2023',
-        description: 'Sácale provecho a tu celular: una herramienta útil para aprender'
+        description: 'Sácale provecho a tu celular: una herramienta útil para aprender Con acceso a internet, aplicaciones educativas.'
     },
     {
         image: 'imagen_40.png',
         title: '27 de febrero de 2023',
-        description: 'Sácale provecho a Internet y accede a un mundo de posibilidades con las aplicaciones'
+        description: 'Sácale provecho a Internet y accede a un mundo de posibilidades con las aplicaciones en sus telefonos celulares.'
     },
     {
         image: 'imagen_41.png',
