@@ -11,7 +11,8 @@ body {
     align-items: center;
     background-color: rgb(93, 93, 220);
     color: rgb(255, 255, 255);
-    position: relative;
+    position: fixed; /* Cambiado a posición fija */
+    width: 100%; /* Ancho fijo */
 }
 .logo img {
     width: 130px;
@@ -21,9 +22,10 @@ body {
     padding: 0;
     list-style-type: none;
     display: flex;
+    margin-right: 30px;
 }
 .menu-list li {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 .menu-list li a {
     transition: color 0.3s ease;
@@ -37,6 +39,7 @@ body {
 .burger {
     display: none;
     cursor: pointer;
+    margin-right: 30px;
 }
 .burger div {
     width: 25px;
