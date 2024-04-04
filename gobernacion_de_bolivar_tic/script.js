@@ -5,7 +5,7 @@ burger.addEventListener('click', () => {
     menuList.classList.toggle('active');
 });
 
-//funcionalidad_carrusel
+//funcionalidad_carrusel_(pendiete_por_corregir)
 const slides = document.querySelector('.slides');
 const prevButton = document.querySelector('.prev');
 const nextButton = document.querySelector('.next');
