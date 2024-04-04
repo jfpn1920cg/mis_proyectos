@@ -4,6 +4,7 @@ const menuList = document.querySelector('.menu-list');
 burger.addEventListener('click', () => {
     menuList.classList.toggle('active');
 });
+
 //funcionalidad_carrusel
 const slides = document.querySelector('.slides');
 const prevButton = document.querySelector('.prev');
