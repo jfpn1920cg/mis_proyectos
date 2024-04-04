@@ -6,13 +6,14 @@ body {
 .navbar {
     padding: 10px 20px;
     z-index: 2;
+    width: 100%;
+    margin-top: -64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     background-color: rgb(93, 93, 220);
     color: rgb(255, 255, 255);
-    position: fixed; /* Cambiado a posición fija */
-    width: 100%; /* Ancho fijo */
 }
 .logo img {
     width: 130px;
@@ -20,9 +21,9 @@ body {
 .menu-list {
     margin: 0;
     padding: 0;
+    margin-right: 30px;
     list-style-type: none;
     display: flex;
-    margin-right: 30px;
 }
 .menu-list li {
     margin-left: 20px;
@@ -37,9 +38,9 @@ body {
     color: rgb(220, 172, 0);
 }
 .burger {
+    margin-right: 30px;
     display: none;
     cursor: pointer;
-    margin-right: 30px;
 }
 .burger div {
     width: 25px;
@@ -98,11 +99,12 @@ body {
     max-width: 100%;
     position: relative;
     overflow: hidden;
+    margin-top: 64px;
 }
 .slides {
+    max-width: 100%;
     transition: transform 0.5s ease;
     display: flex;
-    max-width: 100%;
 }
 .slides img {
     width: 100%;
