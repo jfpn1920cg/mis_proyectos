@@ -30,26 +30,55 @@
         </div>
     </nav>    
     <!--estruturando_carrusel_(pendiete_por_corregir)-->
-    <div class="carousel">
-        <div class="slides">
-            <img src="imagen_6.png" alt="Slide 1">
-            <img src="imagen_5.png" alt="Slide 2">
-            <img src="imagen_4.png" alt="Slide 3">
-            <img src="imagen_7.png" alt="Slide 4">
-            <img src="imagen_115.jpg" alt="Slide 5">
-            <img src="imagen_116.jpg" alt="Slide 6">
-        </div>
-        <div class="controls">
-            <button class="prev">&#10094;</button>
-            <button class="next">&#10095;</button>
-            <div class="indicators">
-                <span class="indicator active"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
+    <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <input type="radio" name="slider" id="slide5">
+        <input type="radio" name="slider" id="slide6">
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                        <img src="imagen_4.png" alt="Slide 1">
+                    </div>
+                    <div class="slide slide_2">
+                        <img src="imagen_5.png" alt="Slide 2">
+                    </div>
+                    <div class="slide slide_3">
+                        <img src="imagen_6.png" alt="Slide 3">
+                    </div>
+                    <div class="slide slide_4">
+                        <img src="imagen_7.png" alt="Slide 4">
+                    </div>
+                    <div class="slide slide_5">
+                        <img src="imagen_115.jpg" alt="Slide 5">
+                    </div>
+                    <div class="slide slide_6">
+                        <img src="imagen_116.jpg" alt="Slide 6">
+                    </div>
+                </div>
             </div>
+        </div>
+        <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+            <div class="arrow prev" onclick="prevSlide()">&#10094;</div>
+            <div class="arrow next" onclick="nextSlide()">&#10095;</div>
+        </div>
+                
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
         </div>
     </div>
     <!--estruturando_zona_de_perfiles_parte_1-->

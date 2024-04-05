@@ -6,47 +6,56 @@ burger.addEventListener('click', () => {
 });
 
 //funcionalidad_carrusel_(pendiete_por_corregir)
-const slides = document.querySelector('.slides');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-const indicators = document.querySelectorAll('.indicator');
-let slideIndex = 0;
-let autoSlideInterval;
-function showSlides(index) {
-    slides.style.transform = `translateX(-${index * 100}%)`;
-    indicators.forEach(indicator => indicator.classList.remove('active'));
-    indicators[index].classList.add('active');
-}
 function nextSlide() {
-    slideIndex = (slideIndex + 1) % slides.children.length;
-    showSlides(slideIndex);
+    var currentSlide = document.querySelector('input[name="slider"]:checked');
+    var nextSlide = currentSlide.nextElementSibling || document.getElementById('slide1');
+    nextSlide.checked = true;
+    if (nextSlide === document.getElementById('slide1')) {
+        updateBulletIndicator(0);
+    } else {
+        updateBulletIndicator(parseInt(nextSlide.id.slice(-1)) - 1);
+    }
+    // Si estamos en el último slide, automáticamente nos lleva al primer slide
+    if (currentSlide === document.getElementById('slide6')) {
+        setTimeout(function() {
+            document.getElementById('slide1').checked = true;
+            updateBulletIndicator(0);
+        }, 800); // Ajusta el tiempo de transición según lo necesites (800ms en este caso)
+    }
 }
+
 function prevSlide() {
-    slideIndex = (slideIndex - 1 + slides.children.length) % slides.children.length;
-    showSlides(slideIndex);
+    var currentSlide = document.querySelector('input[name="slider"]:checked');
+    var prevSlide = currentSlide.previousElementSibling || document.getElementById('slide6');
+    prevSlide.checked = true;
+    if (prevSlide === document.getElementById('slide6')) {
+        updateBulletIndicator(5);
+    } else {
+        updateBulletIndicator(parseInt(prevSlide.id.slice(-1)) - 1);
+    }
 }
-function startAutoSlide() {
-    autoSlideInterval = setInterval(nextSlide, 5000);
-}
-function stopAutoSlide() {
-    clearInterval(autoSlideInterval);
-}
-prevButton.addEventListener('click', () => {
-    prevSlide();
-    stopAutoSlide();
-});
-nextButton.addEventListener('click', () => {
-    nextSlide();
-    stopAutoSlide();
-});
-indicators.forEach((indicator, index) => {
-    indicator.addEventListener('click', () => {
-        slideIndex = index;
-        showSlides(slideIndex);
-        stopAutoSlide();
+
+function updateBulletIndicator(index) {
+    var bullets = document.querySelectorAll('#bullets label');
+    bullets.forEach(function(bullet, i) {
+        if (i === index) {
+            bullet.style.background = '#444';
+        } else {
+            bullet.style.background = '#ccc';
+        }
     });
-});
-startAutoSlide();
+}
+
+window.onload = function() {
+    updateBulletIndicator(0); // Asegurarse de que el primer punto esté resaltado al cargar la página
+
+    // Iniciar el carrusel automático
+    setInterval(function() {
+        nextSlide();
+    }, 5000); // Cambia el intervalo de tiempo según lo necesites (5000 ms = 5 segundos)
+};
+
+
 //funcionalidad__ventana_evergente_parte_1
 var previewButton = document.querySelector(".preview-button");
 var modal = document.querySelector(".modal");
