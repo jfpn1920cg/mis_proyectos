@@ -99,7 +99,7 @@ body {
 #slider {
     width: 1141px;
     margin-top: -30px;
-    margin-left: -90px;
+    margin-left:65px;
 }
 #slider input[type=radio] {
     display: none;
@@ -110,8 +110,8 @@ body {
 }
 #slides {
     padding: 90px;
-    position: relative;
     z-index: 1;
+    position: relative;
 }
 #overflow {
     width: 100%;
@@ -136,24 +136,24 @@ body {
     margin-left: -500%;
 }
 #slides .inner {
-    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    width: 600%; /* Actualizado de 400% a 600% para agregar dos imágenes adicionales */
+    width: 600%;
     line-height: 0;
-    height: auto; /* Cambiado de 300px a auto para adaptarse a la altura de las imágenes */
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    height: auto;
 }
 #slides .slide {
-    width: 16.666%; /* Cambiado de 25% a 16.666% para ajustarse a seis imágenes */
+    width: 16.666%;
+    height: 100%;
     float:left;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     color: #fff;
 }
 #slides .slide img {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
-    max-height: 100%; /* Ajusta el tamaño máximo de la imagen */
-    height: auto; /* Ajusta la altura automáticamente para mantener la relación de aspecto */
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
 }
 #slides .slide_1 {
     background: #00171F;
@@ -168,41 +168,41 @@ body {
     background: #00A8E8;
 }
 #slides .slide_5 {
-    background: #FF0000; /* Cambia el color de fondo según tu preferencia */
+    background: #FF0000;
 }
 #slides .slide_6 {
-    background: #00FF00; /* Cambia el color de fondo según tu preferencia */
+    background: #00FF00;
 }
 #controls {
-    margin: -180px 0 0 0;
+    margin: -260px 0 0 0;
     width: 100%;
     height: 50px;
-    z-index: 3;
+    z-index: 1;
     position: relative;
 }
 #controls label {
-    transition: opacity 0.2s ease-out;
-    display: none;
     width: 50px;
     height: 50px;
     opacity: .4;
+    transition: opacity 0.2s ease-out;
+    display: none;
 }
 #controls label:hover {
     opacity: 1;
 }
 .arrow {
-    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
     font-size: 24px;
     line-height: 40px;
-    text-align: center;
-    cursor: pointer;
     transition: background-color 0.3s;
+    transform: translateY(-50%);
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
 
 .arrow:hover {
@@ -213,7 +213,7 @@ body {
     left: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-left: 435px;
+    margin-left: 428px;
     margin-top: 175px;
 }
 
@@ -224,60 +224,37 @@ body {
     margin-top: 175px;
 }
 
-#slide1:checked ~ #controls label:nth-child(2),
-#slide2:checked ~ #controls label:nth-child(3),
-#slide3:checked ~ #controls label:nth-child(4),
-#slide4:checked ~ #controls label:nth-child(5),
-#slide5:checked ~ #controls label:nth-child(6) {
-    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
-    float:right;
+#slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(4), #slide4:checked ~ #controls label:nth-child(5), #slide5:checked ~ #controls label:nth-child(6) {
     margin: 0 -50px 0 0;
+    float:right;
     display: block;
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    
 }
-#slide1:checked ~ #controls label:nth-last-child(4),
-#slide2:checked ~ #controls label:nth-last-child(3),
-#slide3:checked ~ #controls label:nth-last-child(2),
-#slide4:checked ~ #controls label:nth-last-child(1),
-#slide5:checked ~ #controls label:nth-last-child(5) {
+#slide1:checked ~ #controls label:nth-last-child(4), #slide2:checked ~ #controls label:nth-last-child(3), #slide3:checked ~ #controls label:nth-last-child(2), #slide4:checked ~ #controls label:nth-last-child(1), #slide5:checked ~ #controls label:nth-last-child(5) {
+    margin: 0 0 0 -50px;
     background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
     float:left;
-    margin: 0 0 0 -50px;
     display: block;
 }
 #bullets {
     margin: 150px 0 0;
-    text-align: center;
     margin-top: 140px;
+    text-align: center;
 }
 #bullets label {
-    display: inline-block;
+    margin: 0 10px;
     width: 10px;
     height: 10px;
     border-radius:100%;
+    display: inline-block;
     background: #ccc;
-    margin: 0 10px;
 }
-#slide1:checked ~ #bullets label:nth-child(1),
-#slide2:checked ~ #bullets label:nth-child(2),
-#slide3:checked ~ #bullets label:nth-child(3),
-#slide4:checked ~ #bullets label:nth-child(4),
-#slide5:checked ~ #bullets label:nth-child(5),
-#slide6:checked ~ #bullets label:nth-child(6) {
+#slide1:checked ~ #bullets label:nth-child(1), #slide2:checked ~ #bullets label:nth-child(2), #slide3:checked ~ #bullets label:nth-child(3), #slide4:checked ~ #bullets label:nth-child(4), #slide5:checked ~ #bullets label:nth-child(5), #slide6:checked ~ #bullets label:nth-child(6) {
     background: #444;
 }
 @media screen and (max-width: 900px) {
-    #slide1:checked ~ #controls label:nth-child(2),
-    #slide2:checked ~ #controls label:nth-child(3),
-    #slide3:checked ~ #controls label:nth-child(4),
-    #slide4:checked ~ #controls label:nth-child(5),
-    #slide5:checked ~ #controls label:nth-child(6),
-    #slide6:checked ~ #controls label:nth-child(1),
-    #slide1:checked ~ #controls label:nth-last-child(4),
-    #slide2:checked ~ #controls label:nth-last-child(3),
-    #slide3:checked ~ #controls label:nth-last-child(2),
-    #slide4:checked ~ #controls label:nth-last-child(1),
-    #slide5:checked ~ #controls label:nth-last-child(5),
-    #slide6:checked ~ #controls label:nth-last-child(6) {
+    #slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(4), #slide4:checked ~ #controls label:nth-child(5), #slide5:checked ~ #controls label:nth-child(6), #slide6:checked ~ #controls label:nth-child(1), #slide1:checked ~ #controls label:nth-last-child(4),#slide2:checked ~ #controls label:nth-last-child(3), #slide3:checked ~ #controls label:nth-last-child(2), #slide4:checked ~ #controls label:nth-last-child(1), #slide5:checked ~ #controls label:nth-last-child(5), #slide6:checked ~ #controls label:nth-last-child(6) {
        margin: 0;
     }
     #slides {
@@ -286,10 +263,16 @@ body {
     }
 }
 /*estilizando_zona_de_perfiles_parte_1*/
+.perfiles{
+    margin-top: 105px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: Arial;
+}
 .director-tic {
     margin-bottom: 30px;
-    text-align: center;
     margin-top: 10px;
+    text-align: center;
 }
 .director-tic .profile-info {
     display: flex;
@@ -318,10 +301,10 @@ body {
     text-align: justify;
 }
 .director-tic button.preview-button {
-    padding: 10px 20px;
+    padding: 23.4px 140px;
     border-radius: 5px;
-    margin-top: 130px;
-    margin-left: 385px;
+    margin-top: 172px;
+    margin-left: -789px;
     transition: background-color 0.3s ease;
     cursor: pointer;
     border: none;
@@ -342,8 +325,8 @@ body {
         margin-bottom: 10px;
     }
     .director-tic .profile-info h3 {
-        text-align: center;
         margin-left: 115px;
+        text-align: center;
     }
     .director-tic .profile-info p {
         margin-right: 0;
