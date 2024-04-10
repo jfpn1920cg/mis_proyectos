@@ -284,27 +284,11 @@ body {
     margin-left: 10px;
     height: auto;
 }
-.director-tic .profile-info h3 {
-    margin-left: 10px;
-    text-align: justify;
-}
-.director-tic .profile-info p {
-    margin-top: 0px;
-    margin-left: 10px;
-    width: 400px;
-    text-align: justify;
-}
-.parrafo-lateral{
-    margin-top: -442.5px;
-    margin-left: 840px;
-    width: 400px;
-    text-align: justify;
-}
-.director-tic button.preview-button {
-    padding: 23.4px 140px;
-    border-radius: 5px;
-    margin-top: 172px;
-    margin-left: -789px;
+.preview-button {
+    width: 372px;
+    height: 63px;
+    margin-top: 472px;
+    margin-left: -376px;
     transition: background-color 0.3s ease;
     cursor: pointer;
     border: none;
