@@ -7,12 +7,12 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_33ADB152","path":"rooms/rm_sala_22_barra_de_progreso_parte_3/rm_sala_22_barra_de_progreso_parte_3.yy",},
+    {"name":"inst_7784C486","path":"rooms/rm_sala_22_barra_de_progreso_parte_3/rm_sala_22_barra_de_progreso_parte_3.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"instances_sistema","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33ADB152","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_barra_de_progreso_sala_22_parte_3","path":"objects/obj_barra_de_progreso_sala_22_parte_3/obj_barra_de_progreso_sala_22_parte_3.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":3.4375,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7784C486","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_barra_de_progreso_sala_22_parte_3","path":"objects/obj_barra_de_progreso_sala_22_parte_3/obj_barra_de_progreso_sala_22_parte_3.yy",},"properties":[],"rotation":0.0,"scaleX":4.9375,"scaleY":4.75,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_22_barra_de_progreso","path":"sprites/spr_sala_22_barra_de_progreso/spr_sala_22_barra_de_progreso.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
