@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_barra_de_progreso_sala_22",
+  "name": "obj_barra_de_progreso_sala_22_parte_2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "barra_de_progreso",
-    "path": "folders/Objetos/barra_de_progreso.yy",
+    "name": "sala_22",
+    "path": "folders/Objetos/barra_de_progreso/sala_22.yy",
   },
   "parentObjectId": null,
   "persistent": false,
