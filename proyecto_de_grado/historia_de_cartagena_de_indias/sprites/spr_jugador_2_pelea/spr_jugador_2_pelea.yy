@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "caracteristicas_del_jugador_2",
-    "path": "folders/Sprites/combates/sala_22/troncos_de_madera/caracteristicas_del_jugador_2.yy",
+    "name": "troncos_de_madera",
+    "path": "folders/Sprites/combates/sala_22/troncos_de_madera.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
