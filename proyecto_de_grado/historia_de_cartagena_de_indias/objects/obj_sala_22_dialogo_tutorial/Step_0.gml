@@ -20,6 +20,6 @@ if (tiempo_actual >= tiempo_restante)
     if (progreso_actual >= progreso_maximo)
     {
         // Cambiar a la siguiente sala (Room2) o realizar otras acciones
-        room_goto(rm_sala_22_mision_parte_1);
+        room_goto(rm_sala_22_mision);
     }
 }
