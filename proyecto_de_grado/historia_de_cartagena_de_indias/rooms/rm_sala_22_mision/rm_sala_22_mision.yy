@@ -140,6 +140,7 @@
     {"name":"inst_48361006","path":"rooms/rm_sala_22_mision/rm_sala_22_mision.yy",},
     {"name":"inst_1A80FB66","path":"rooms/rm_sala_22_mision/rm_sala_22_mision.yy",},
     {"name":"inst_2B794D25","path":"rooms/rm_sala_22_mision/rm_sala_22_mision.yy",},
+    {"name":"inst_14874425","path":"rooms/rm_sala_22_mision/rm_sala_22_mision.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -277,6 +278,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48361006","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_indios_npc","path":"objects/obj_indios_npc/obj_indios_npc.yy",},"properties":[],"rotation":0.0,"scaleX":0.23557691,"scaleY":0.21812081,"x":1303.5,"y":871.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A80FB66","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"sala_22_bloques_de_carbon","path":"objects/sala_22_bloques_de_carbon/sala_22_bloques_de_carbon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1296.0,"y":940.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B794D25","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_acceso_a_sala_40","path":"objects/obj_acceso_a_sala_40/obj_acceso_a_sala_40.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1291.0,"y":804.5,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14874425","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"sala_22_bolsas_de_plumas","path":"objects/sala_22_bolsas_de_plumas/sala_22_bolsas_de_plumas.yy",},"properties":[],"rotation":0.0,"scaleX":0.546969,"scaleY":0.3916084,"x":1526.0,"y":889.1958,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_22_mision","path":"sprites/spr_sala_22_mision/spr_sala_22_mision.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
