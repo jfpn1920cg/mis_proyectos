@@ -395,6 +395,7 @@
     {"name":"spr_jugador_3_quieto_derecha","order":1,"path":"sprites/spr_jugador_3_quieto_derecha/spr_jugador_3_quieto_derecha.yy",},
     {"name":"spr_jugador_5_quieto_izquierda","order":1,"path":"sprites/spr_jugador_5_quieto_izquierda/spr_jugador_5_quieto_izquierda.yy",},
     {"name":"obj_acceso_a_sala_12","order":12,"path":"objects/obj_acceso_a_sala_12/obj_acceso_a_sala_12.yy",},
+    {"name":"obj_acceso_a_sala_41","order":41,"path":"objects/obj_acceso_a_sala_41/obj_acceso_a_sala_41.yy",},
     {"name":"spr_sala_22_mision","order":1,"path":"sprites/spr_sala_22_mision/spr_sala_22_mision.yy",},
     {"name":"spr_jugador_6_quieto_izquierda","order":1,"path":"sprites/spr_jugador_6_quieto_izquierda/spr_jugador_6_quieto_izquierda.yy",},
     {"name":"obj_boton_de_omitir_parte_20","order":20,"path":"objects/obj_boton_de_omitir_parte_20/obj_boton_de_omitir_parte_20.yy",},

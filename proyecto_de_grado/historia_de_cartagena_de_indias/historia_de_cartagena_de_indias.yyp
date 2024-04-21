@@ -503,6 +503,7 @@
     {"id":{"name":"spr_jugador_5_quieto_izquierda","path":"sprites/spr_jugador_5_quieto_izquierda/spr_jugador_5_quieto_izquierda.yy",},},
     {"id":{"name":"obj_acceso_a_sala_12","path":"objects/obj_acceso_a_sala_12/obj_acceso_a_sala_12.yy",},},
     {"id":{"name":"spr_sala_7_dialogo","path":"sprites/spr_sala_7_dialogo/spr_sala_7_dialogo.yy",},},
+    {"id":{"name":"obj_acceso_a_sala_41","path":"objects/obj_acceso_a_sala_41/obj_acceso_a_sala_41.yy",},},
     {"id":{"name":"spr_sala_22_mision","path":"sprites/spr_sala_22_mision/spr_sala_22_mision.yy",},},
     {"id":{"name":"spr_jugador_6_quieto_izquierda","path":"sprites/spr_jugador_6_quieto_izquierda/spr_jugador_6_quieto_izquierda.yy",},},
     {"id":{"name":"obj_boton_de_omitir_parte_20","path":"objects/obj_boton_de_omitir_parte_20/obj_boton_de_omitir_parte_20.yy",},},
