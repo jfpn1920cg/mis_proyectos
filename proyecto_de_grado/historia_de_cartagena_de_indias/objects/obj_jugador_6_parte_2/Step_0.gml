@@ -14,18 +14,18 @@ if (!place_meeting(x, y + vspeed, obj_suelo)) {
 // Maneja el movimiento horizontal del jugador y la animación
 if keyboard_check(ord("A")) {
     hspeed = -5;
-    sprite_index = spr_jugador_5_caminando_izquierda; // Cambia al sprite de caminar hacia la izquierda
+    sprite_index = spr_jugador_6_caminando_izquierda; // Cambia al sprite de caminar hacia la izquierda
 } else if keyboard_check(ord("D")) {
     hspeed = 5;
-    sprite_index = spr_jugador_5_caminando_derecha; // Cambia al sprite de caminar hacia la derecha
+    sprite_index = spr_jugador_6_caminando_derecha; // Cambia al sprite de caminar hacia la derecha
 } else {
     hspeed = 0;
     // Detiene la animación si el jugador se detiene
-    if (sprite_index == spr_jugador_5_caminando_izquierda) {
+    if (sprite_index == spr_jugador_6_caminando_izquierda) {
         // Si la animación actual es caminar hacia la izquierda, cambiar a la animación de jugador quieto hacia la izquierda
-        sprite_index = spr_jugador_5_quieto_izquierda;
-    } else if (sprite_index == spr_jugador_5_caminando_derecha) {
+        sprite_index = spr_jugador_6_quieto_izquierda;
+    } else if (sprite_index == spr_jugador_6_caminando_derecha) {
         // Si la animación actual es caminar hacia la derecha, cambiar a la animación de jugador quieto hacia la derecha
-        sprite_index = spr_jugador_5_quieto_derecha;
+        sprite_index = spr_jugador_6_quieto_derecha;
     }
 }

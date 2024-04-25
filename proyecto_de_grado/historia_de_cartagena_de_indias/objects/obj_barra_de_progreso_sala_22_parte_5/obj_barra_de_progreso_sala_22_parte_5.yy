@@ -1,15 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "sala_22_bolsas_de_plumas",
+  "name": "obj_barra_de_progreso_sala_22_parte_5",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_jugador_6_parte_2","path":"objects/obj_jugador_6_parte_2/obj_jugador_6_parte_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "los_objetos",
-    "path": "folders/Objetos/los_objetos.yy",
+    "name": "sala_22",
+    "path": "folders/Objetos/barra_de_progreso/sala_22.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_sala_22_bolsas_de_plumas",
-    "path": "sprites/spr_sala_22_bolsas_de_plumas/spr_sala_22_bolsas_de_plumas.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

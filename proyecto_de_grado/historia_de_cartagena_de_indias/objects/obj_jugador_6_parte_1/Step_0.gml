@@ -12,31 +12,31 @@ if (!place_meeting(x, y + vspeed, obj_suelo)) {
 // Maneja el movimiento horizontal del jugador y la animación
 if keyboard_check(ord("A")) {
     hspeed = -5;
-    sprite_index = spr_jugador_5_caminando_izquierda; // Cambia al sprite de caminar hacia la izquierda
+    sprite_index = spr_jugador_6_caminando_izquierda; // Cambia al sprite de caminar hacia la izquierda
 } else if keyboard_check(ord("D")) {
     hspeed = 5;
-    sprite_index = spr_jugador_5_caminando_derecha; // Cambia al sprite de caminar hacia la derecha
+    sprite_index = spr_jugador_6_caminando_derecha; // Cambia al sprite de caminar hacia la derecha
 } else {
     hspeed = 0;
     // Detiene la animación si el jugador se detiene
-    if (sprite_index == spr_jugador_5_caminando_izquierda) {
+    if (sprite_index == spr_jugador_6_caminando_izquierda) {
         // Si la animación actual es caminar hacia la izquierda, cambiar a la animación de jugador quieto hacia la izquierda
-        sprite_index = spr_jugador_5_quieto_izquierda;
-    } else if (sprite_index == spr_jugador_5_caminando_derecha) {
+        sprite_index = spr_jugador_6_quieto_izquierda;
+    } else if (sprite_index == spr_jugador_6_caminando_derecha) {
         // Si la animación actual es caminar hacia la derecha, cambiar a la animación de jugador quieto hacia la derecha
-        sprite_index = spr_jugador_5_quieto_derecha;
+        sprite_index = spr_jugador_6_quieto_derecha;
     }
 }
 
 // Verifica si el jugador está en la animación de pelea
-if (sprite_index == spr_jugador_5_pelea) {
+if (sprite_index == spr_jugador_6_pelea) {
     // Si está en la animación de pelea y colisiona con el enemigo al presionar la tecla E, reduce la vida del enemigo
-    if (keyboard_check_pressed(ord("E")) && place_meeting(x, y, obj_enemigos_4)) {
-        obj_barras_vida_parte_4.vida_actual_enemigo -= 10; // Reducir la vida del enemigo (ajusta según sea necesario)
+    if (keyboard_check_pressed(ord("E")) && place_meeting(x, y, obj_enemigos_5)) {
+        obj_barras_vida_parte_5.vida_actual_enemigo -= 10; // Reducir la vida del enemigo (ajusta según sea necesario)
         
         // Verifica si la vida actual del enemigo es igual o menor que cero
-        if (obj_barras_vida_parte_4.vida_actual_enemigo <= 0) {
-            with (obj_enemigos_4) {
+        if (obj_barras_vida_parte_5.vida_actual_enemigo <= 0) {
+            with (obj_enemigos_5) {
                 instance_destroy(); // Destruye el objeto enemigo si su vida es igual o menor que cero
             }
         }
@@ -96,12 +96,12 @@ if (tiene_arma && keyboard_check_pressed(ord("J"))) {
 }
 
 // Agrega el código para reducir la vida del enemigo si la flecha colisiona con él
-with (obj_enemigos_4) {
+with (obj_enemigos_5) {
     if (place_meeting(x, y, obj_resorteraso_arma)) {
-        obj_barras_vida_parte_4.vida_actual_enemigo -= 10; // Reducir la vida del enemigo (ajusta según sea necesario)
+        obj_barras_vida_parte_5.vida_actual_enemigo -= 10; // Reducir la vida del enemigo (ajusta según sea necesario)
         
         // Verifica si la vida actual del enemigo es igual o menor que cero
-        if (obj_barras_vida_parte_4.vida_actual_enemigo <= 0) {
+        if (obj_barras_vida_parte_5.vida_actual_enemigo <= 0) {
             instance_destroy(); // Destruye el objeto enemigo si su vida es igual o menor que cero
         }
         

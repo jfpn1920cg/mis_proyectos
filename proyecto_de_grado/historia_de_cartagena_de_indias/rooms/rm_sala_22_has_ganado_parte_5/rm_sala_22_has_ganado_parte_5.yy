@@ -1,28 +1,24 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_sala_22_combate_parte_10",
+  "name": "rm_sala_22_has_ganado_parte_5",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_240E7E2D_1_1_1","path":"rooms/rm_sala_22_combate_parte_10/rm_sala_22_combate_parte_10.yy",},
-    {"name":"inst_55E83B31","path":"rooms/rm_sala_22_combate_parte_10/rm_sala_22_combate_parte_10.yy",},
-    {"name":"inst_68B2F7CC","path":"rooms/rm_sala_22_combate_parte_10/rm_sala_22_combate_parte_10.yy",},
+    {"name":"inst_73D051DF","path":"rooms/rm_sala_22_has_ganado_parte_5/rm_sala_22_has_ganado_parte_5.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_240E7E2D_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_suelo","path":"objects/obj_suelo/obj_suelo.yy",},"properties":[],"rotation":0.0,"scaleX":28.375,"scaleY":1.0,"x":1.0,"y":507.13184,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55E83B31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"sala_22_bolsas_de_plumas","path":"objects/sala_22_bolsas_de_plumas/sala_22_bolsas_de_plumas.yy",},"properties":[],"rotation":0.0,"scaleX":0.88505745,"scaleY":0.993007,"x":1723.0,"y":365.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68B2F7CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jugador_6_parte_2","path":"objects/obj_jugador_6_parte_2/obj_jugador_6_parte_2.yy",},"properties":[],"rotation":0.0,"scaleX":5.939578,"scaleY":6.0625,"x":87.0,"y":410.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73D051DF","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"objectId":{"name":"obj_boton_de_puedes_salir_parte_5","path":"objects/obj_boton_de_puedes_salir_parte_5/obj_boton_de_puedes_salir_parte_5.yy",},"properties":[],"rotation":0.0,"scaleX":1.7284595,"scaleY":1.6947368,"x":576.0,"y":637.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_22_combate","path":"sprites/spr_sala_22_combate/spr_sala_22_combate.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_22_has_ganado","path":"sprites/spr_sala_22_has_ganado/spr_sala_22_has_ganado.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "bosas_de_plumas",
-    "path": "folders/Salas/combates/sala_22/bosas_de_plumas.yy",
+    "name": "desicion__de_blosas_de_plumas",
+    "path": "folders/Salas/sistema_del_juego/desiciones/sala_22/desicion__de_blosas_de_plumas.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
