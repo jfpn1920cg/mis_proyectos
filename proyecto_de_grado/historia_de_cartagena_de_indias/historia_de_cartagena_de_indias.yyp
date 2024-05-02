@@ -421,6 +421,7 @@
     {"id":{"name":"obj_acceso_a_sala_7","path":"objects/obj_acceso_a_sala_7/obj_acceso_a_sala_7.yy",},},
     {"id":{"name":"spr_enemigos_pelea_3","path":"sprites/spr_enemigos_pelea_3/spr_enemigos_pelea_3.yy",},},
     {"id":{"name":"spr_achasos_arma","path":"sprites/spr_achasos_arma/spr_achasos_arma.yy",},},
+    {"id":{"name":"spr_sala_23","path":"sprites/spr_sala_23/spr_sala_23.yy",},},
     {"id":{"name":"obj_boton_de_desplasamiento_parte_4","path":"objects/obj_boton_de_desplasamiento_parte_4/obj_boton_de_desplasamiento_parte_4.yy",},},
     {"id":{"name":"spr_dialogo_sala_10_parte_1","path":"sprites/spr_dialogo_sala_10_parte_1/spr_dialogo_sala_10_parte_1.yy",},},
     {"id":{"name":"spr_barra_de_progreso_sala_22","path":"sprites/spr_barra_de_progreso_sala_22/spr_barra_de_progreso_sala_22.yy",},},

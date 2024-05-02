@@ -339,6 +339,7 @@
     {"name":"obj_acceso_a_sala_7","order":7,"path":"objects/obj_acceso_a_sala_7/obj_acceso_a_sala_7.yy",},
     {"name":"spr_enemigos_pelea_3","order":1,"path":"sprites/spr_enemigos_pelea_3/spr_enemigos_pelea_3.yy",},
     {"name":"spr_achasos_arma","order":1,"path":"sprites/spr_achasos_arma/spr_achasos_arma.yy",},
+    {"name":"spr_sala_23","order":3,"path":"sprites/spr_sala_23/spr_sala_23.yy",},
     {"name":"obj_boton_de_desplasamiento_parte_4","order":3,"path":"objects/obj_boton_de_desplasamiento_parte_4/obj_boton_de_desplasamiento_parte_4.yy",},
     {"name":"spr_barra_de_progreso_sala_22","order":1,"path":"sprites/spr_barra_de_progreso_sala_22/spr_barra_de_progreso_sala_22.yy",},
     {"name":"obj_boton_de_omitir_parte_18","order":18,"path":"objects/obj_boton_de_omitir_parte_18/obj_boton_de_omitir_parte_18.yy",},
