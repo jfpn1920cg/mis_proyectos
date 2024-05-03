@@ -770,6 +770,7 @@
     {"id":{"name":"rm_sala_0","path":"rooms/rm_sala_0/rm_sala_0.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_sala_23","path":"rooms/rm_sala_23/rm_sala_23.yy",},},
     {"roomId":{"name":"rm_sala_0","path":"rooms/rm_sala_0/rm_sala_0.yy",},},
     {"roomId":{"name":"rm_sala_0_barra_de_progreso","path":"rooms/rm_sala_0_barra_de_progreso/rm_sala_0_barra_de_progreso.yy",},},
     {"roomId":{"name":"rm_sala_1_dialogo","path":"rooms/rm_sala_1_dialogo/rm_sala_1_dialogo.yy",},},
@@ -877,7 +878,6 @@
     {"roomId":{"name":"rm_sala_22_tutorial_parte_2","path":"rooms/rm_sala_22_tutorial_parte_2/rm_sala_22_tutorial_parte_2.yy",},},
     {"roomId":{"name":"rm_sala_23_dialogo","path":"rooms/rm_sala_23_dialogo/rm_sala_23_dialogo.yy",},},
     {"roomId":{"name":"rm_sala_23_barra_de_progreso","path":"rooms/rm_sala_23_barra_de_progreso/rm_sala_23_barra_de_progreso.yy",},},
-    {"roomId":{"name":"rm_sala_23","path":"rooms/rm_sala_23/rm_sala_23.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
