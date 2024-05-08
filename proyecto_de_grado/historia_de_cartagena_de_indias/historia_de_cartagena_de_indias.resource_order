@@ -175,6 +175,10 @@
     {"name":"sala_1","order":1,"path":"folders/Sprites/tutoriales/sala_1.yy",},
     {"name":"sala_22","order":5,"path":"folders/Sprites/tutoriales/sala_22.yy",},
     {"name":"sala_5","order":4,"path":"folders/Sprites/tutoriales/sala_5.yy",},
+    {"name":"mision_segundaria","order":16,"path":"folders/Sprites/mision_segundaria.yy",},
+    {"name":"boton_mouse_clic_izquierdo","order":1,"path":"folders/Sprites/mision_segundaria/boton_mouse_clic_izquierdo.yy",},
+    {"name":"mision_segundaria","order":13,"path":"folders/Objetos/mision_segundaria.yy",},
+    {"name":"mision_segundaria","order":15,"path":"folders/Salas/mision_segundaria.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_acceso_a_sala_38","order":38,"path":"sprites/spr_acceso_a_sala_38/spr_acceso_a_sala_38.yy",},
