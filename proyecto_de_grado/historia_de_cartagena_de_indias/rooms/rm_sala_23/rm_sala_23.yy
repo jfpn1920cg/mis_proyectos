@@ -174,6 +174,7 @@
     {"name":"inst_7ACF1C50","path":"rooms/rm_sala_23/rm_sala_23.yy",},
     {"name":"inst_5231088B","path":"rooms/rm_sala_23/rm_sala_23.yy",},
     {"name":"inst_743DA7DA","path":"rooms/rm_sala_23/rm_sala_23.yy",},
+    {"name":"inst_2B3EFC34","path":"rooms/rm_sala_23/rm_sala_23.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -345,6 +346,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7ACF1C50","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bloque_de_bloqueo","path":"objects/obj_bloque_de_bloqueo/obj_bloque_de_bloqueo.yy",},"properties":[],"rotation":0.0,"scaleX":0.765625,"scaleY":1.0,"x":996.48303,"y":379.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5231088B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bloque_de_bloqueo","path":"objects/obj_bloque_de_bloqueo/obj_bloque_de_bloqueo.yy",},"properties":[],"rotation":0.0,"scaleX":0.796875,"scaleY":1.0,"x":849.0,"y":379.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_743DA7DA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"objectId":{"name":"obj_boton_mouse_clic_izquierdo","path":"objects/obj_boton_mouse_clic_izquierdo/obj_boton_mouse_clic_izquierdo.yy",},"properties":[],"rotation":0.0,"scaleX":1.01,"scaleY":1.293,"x":0.0,"y":4.863739E-05,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B3EFC34","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_acceso_a_sala_44","path":"objects/obj_acceso_a_sala_44/obj_acceso_a_sala_44.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":149.44531,"y":159.16284,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_23","path":"sprites/spr_sala_23/spr_sala_23.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_sala_23_mision_segundaria",
-  "bbox_bottom": 939,
+  "name": "spr_sala_23_mision_segundaria_parte_2",
+  "bbox_bottom": 589,
   "bbox_left": 0,
-  "bbox_right": 1955,
+  "bbox_right": 1026,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9859fd72-9202-4002-b2ed-438d65bb4000",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20394c8c-0c34-4818-8c0d-94902c7d2bd9",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 940,
+  "height": 590,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0f680d6b-8b6f-4eef-9460-34c1bbfc1335","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3fb1668c-e262-42bf-b9f2-d3370c259940","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_sala_23_mision_segundaria",
+    "name": "spr_sala_23_mision_segundaria_parte_2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9859fd72-9202-4002-b2ed-438d65bb4000","path":"sprites/spr_sala_23_mision_segundaria/spr_sala_23_mision_segundaria.yy",},},},"Disabled":false,"id":"9986391e-eb84-4c9d-932f-c7c72f439334","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20394c8c-0c34-4818-8c0d-94902c7d2bd9","path":"sprites/spr_sala_23_mision_segundaria_parte_2/spr_sala_23_mision_segundaria_parte_2.yy",},},},"Disabled":false,"id":"03553c2c-53eb-430a-83c9-357394e09cb4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1956,
+  "width": 1027,
 }
