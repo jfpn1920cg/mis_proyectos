@@ -8,11 +8,13 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_AD7BA2","path":"rooms/rm_sala_23_anuncio/rm_sala_23_anuncio.yy",},
+    {"name":"inst_433C976E","path":"rooms/rm_sala_23_anuncio/rm_sala_23_anuncio.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AD7BA2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"objectId":{"name":"obj_boton_de_cerrar_parte_2","path":"objects/obj_boton_de_cerrar_parte_2/obj_boton_de_cerrar_parte_2.yy",},"properties":[],"rotation":0.0,"scaleX":1.3035715,"scaleY":1.2432432,"x":1744.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_433C976E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialogo_bloque_de_anuncio_sala_23_parte_1","path":"objects/obj_dialogo_bloque_de_anuncio_sala_23_parte_1/obj_dialogo_bloque_de_anuncio_sala_23_parte_1.yy",},"properties":[],"rotation":0.0,"scaleX":3.7500002,"scaleY":3.75,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_23_bloque_de_anuncio","path":"sprites/spr_sala_23_bloque_de_anuncio/spr_sala_23_bloque_de_anuncio.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

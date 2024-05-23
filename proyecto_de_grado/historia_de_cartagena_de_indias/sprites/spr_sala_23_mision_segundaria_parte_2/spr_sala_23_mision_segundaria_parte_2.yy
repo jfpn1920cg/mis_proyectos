@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "mision_segundaria",
-    "path": "folders/Sprites/mision_segundaria.yy",
+    "name": "sala_23",
+    "path": "folders/Sprites/mision_segundaria/sala_23.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

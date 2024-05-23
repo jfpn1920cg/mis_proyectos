@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8bf0281d-991e-4597-986d-77d09008957a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f34130e3-77d8-481a-b05e-7018d6da2c70",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 590,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"94fa727a-8cc1-41d3-8d8e-0321e692d893","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"970f6904-b345-4326-89b2-0135a3b50f7d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "mision_segundaria",
-    "path": "folders/Sprites/mision_segundaria.yy",
+    "name": "sala_23",
+    "path": "folders/Sprites/mision_segundaria/sala_23.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8bf0281d-991e-4597-986d-77d09008957a","path":"sprites/spr_sala_23_mision_segundaria_parte_3/spr_sala_23_mision_segundaria_parte_3.yy",},},},"Disabled":false,"id":"ee03dc0d-4443-4b5e-8a3d-2c5e94bd0132","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f34130e3-77d8-481a-b05e-7018d6da2c70","path":"sprites/spr_sala_23_mision_segundaria_parte_3/spr_sala_23_mision_segundaria_parte_3.yy",},},},"Disabled":false,"id":"972d38ca-d1d4-44f6-b6a8-81b0e388f423","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
