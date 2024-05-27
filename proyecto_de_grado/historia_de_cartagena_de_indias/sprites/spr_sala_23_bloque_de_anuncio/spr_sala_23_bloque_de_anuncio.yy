@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_sala_23_bloque_de_anuncio",
-  "bbox_bottom": 408,
+  "bbox_bottom": 87,
   "bbox_left": 0,
-  "bbox_right": 689,
+  "bbox_right": 219,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b75ee48-36c3-45ca-a187-98eea27e321e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9c5f5f44-32eb-4fc3-ab6e-8606bc27727b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 409,
+  "height": 88,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a131501a-a497-475d-8f20-62e1570c9b8c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f4a201d5-0188-45ed-ae1b-877e0588cb35","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1b75ee48-36c3-45ca-a187-98eea27e321e","path":"sprites/spr_sala_23_bloque_de_anuncio/spr_sala_23_bloque_de_anuncio.yy",},},},"Disabled":false,"id":"a5853332-d5b3-4763-8c59-825efb095dc0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9c5f5f44-32eb-4fc3-ab6e-8606bc27727b","path":"sprites/spr_sala_23_bloque_de_anuncio/spr_sala_23_bloque_de_anuncio.yy",},},},"Disabled":false,"id":"03bd819b-79e5-4a99-9eda-a6c1400e3dbd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 690,
+  "width": 220,
 }

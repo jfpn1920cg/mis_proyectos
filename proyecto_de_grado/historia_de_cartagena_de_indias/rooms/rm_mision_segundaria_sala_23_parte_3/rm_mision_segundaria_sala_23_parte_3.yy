@@ -173,8 +173,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_sala_23_mision_segundaria_parte_3","path":"sprites/spr_sala_23_mision_segundaria_parte_3/spr_sala_23_mision_segundaria_parte_3.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "mision_segundaria",
-    "path": "folders/Salas/mision_segundaria.yy",
+    "name": "mascara_de_jefe_de_la_tribu",
+    "path": "folders/Salas/mision_segundaria/sala_23/mascara_de_jefe_de_la_tribu.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

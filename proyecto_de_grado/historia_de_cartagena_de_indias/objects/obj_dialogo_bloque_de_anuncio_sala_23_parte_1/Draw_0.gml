@@ -1,13 +1,11 @@
-var texto = "¡Enhorabuena! Has encontrado una máscara extraña, perteneciente a un indio superior de una aldea remota. Recuerda que cada objeto que encuentres en tu camino, ya sea parte de las misiones principales o secundarias, tiene un significado crucial. Pero ahora, vayamos al grano: esta máscara le pertenece al jefe de la tribu. Debemos devolvérsela antes de que ocurra lo peor. No podemos permitir que el pasado cambie; debemos dejar las cosas exactamente donde estaban. Dirígete a la aldea, y hazlo con urgencia. ¡Vamos!";
-draw_set_font(fnt_fuente_museo);
-var color = make_color_rgb(196, 163, 56);
-draw_set_color(color);
-draw_set_valign(fa_top);
-draw_set_halign(fa_left);
-x = 503;
-y = 285;
-var ancho = 50;
-var alto = 1000;
-draw_text_ext(x, y, texto, ancho, alto);
-draw_set_valign(fa_top);
-draw_set_halign(fa_left);
+if (visible) {
+    // Escalar y dibujar el sprite
+    var x_scale = 1728 / sprite_get_width(spr_dialogo_bloque_de_anuncio_sala_2);
+    var y_scale = 500 / sprite_get_height(spr_dialogo_bloque_de_anuncio_sala_2);
+    draw_sprite_ext(spr_dialogo_bloque_de_anuncio_sala_2, 0, 43, 460, x_scale, y_scale, 0, c_white, 1);
+
+    // Dibujar el texto
+    var texto_x = 43 + (1728 / 2); // Ajusta esto según donde quieras posicionar el texto
+    var texto_y = 460 + (500 / 2); // Ajusta esto según donde quieras posicionar el texto
+    draw_text(texto_x, texto_y, texto);
+}

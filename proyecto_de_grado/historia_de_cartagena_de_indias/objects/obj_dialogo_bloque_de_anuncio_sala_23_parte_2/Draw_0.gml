@@ -1,0 +1,13 @@
+var texto = "¡Enhorabuena! Has encontrado una máscara extraña, perteneciente a un indio superior de una aldea remota. Recuerda que cada objeto que encuentres en tu camino, ya sea parte de las misiones principales o secundarias, tiene un significado crucial. Pero ahora, vayamos al grano: esta máscara le pertenece al jefe de la tribu. Debemos devolvérsela antes de que ocurra lo peor. No podemos permitir que el pasado cambie; debemos dejar las cosas exactamente donde estaban. Dirígete a la aldea, y hazlo con urgencia. ¡Vamos!";
+draw_set_font(fnt_fuente_museo);
+var color = make_color_rgb(196, 163, 56);
+draw_set_color(color);
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
+x = 503;
+y = 285;
+var ancho = 50;
+var alto = 1000;
+draw_text_ext(x, y, texto, ancho, alto);
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);

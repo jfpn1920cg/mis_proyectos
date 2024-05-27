@@ -1,3 +1,0 @@
-acceso_49=rm_mision_segundaria_sala_23_parte_2;
-cordenada_x_49=1716;
-cordenada_y_49=676; 
