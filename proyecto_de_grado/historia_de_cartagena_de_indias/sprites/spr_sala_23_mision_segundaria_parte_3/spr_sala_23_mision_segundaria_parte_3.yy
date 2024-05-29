@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "sala_23",
-    "path": "folders/Sprites/mision_segundaria/sala_23.yy",
+    "name": "mascara_del_jefe_de_la_tribu",
+    "path": "folders/Sprites/mision_segundaria/sala_23/mascara_del_jefe_de_la_tribu.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "mision_segundaria",
-    "path": "folders/Objetos/mision_segundaria.yy",
+    "name": "mascara_del_jefe_de_la_tribu",
+    "path": "folders/Objetos/mision_segundaria/sala_23/mascara_del_jefe_de_la_tribu.yy",
   },
   "parentObjectId": null,
   "persistent": false,
