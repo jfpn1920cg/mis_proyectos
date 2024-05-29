@@ -1,2 +1,2 @@
-image_index=2;
-presionar=true;
+image_index = 2;
+presionar = true;

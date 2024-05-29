@@ -1,0 +1,3 @@
+acceso_68=rm_mision_segundaria_sala_23_parte_7;
+cordenada_x_68=1606;
+cordenada_y_68=252; 
