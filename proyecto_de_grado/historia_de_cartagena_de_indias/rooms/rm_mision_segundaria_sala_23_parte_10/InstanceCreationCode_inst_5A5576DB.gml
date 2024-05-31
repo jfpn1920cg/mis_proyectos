@@ -1,0 +1,3 @@
+acceso_76=rm_mision_segundaria_sala_23_parte_9;
+cordenada_x_76=1719;
+cordenada_y_76=815;

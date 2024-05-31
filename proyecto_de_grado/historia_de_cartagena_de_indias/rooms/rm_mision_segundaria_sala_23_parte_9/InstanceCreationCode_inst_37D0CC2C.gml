@@ -1,0 +1,3 @@
+acceso_75=rm_mision_segundaria_sala_23_parte_10;
+cordenada_x_75=52;
+cordenada_y_75=820;
