@@ -1,0 +1,1 @@
+var acceso_88, cordenada_x_88, cordenada_y_88;

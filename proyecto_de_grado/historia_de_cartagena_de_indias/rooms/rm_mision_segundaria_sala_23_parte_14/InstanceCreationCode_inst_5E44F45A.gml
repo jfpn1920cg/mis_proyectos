@@ -1,0 +1,3 @@
+acceso_89=rm_mision_segundaria_sala_23_parte_13;
+cordenada_x_89=261.375;
+cordenada_y_89=862;

@@ -1,0 +1,3 @@
+acceso_81=rm_mision_segundaria_sala_23_parte_12;
+cordenada_x_81=1720;
+cordenada_y_81=745;
