@@ -1,0 +1,13 @@
+var texto = "¡Enhorabuena! Has encontrado unas gemas gemas con 3 colores extraños, vamos a mostrarselos al soldado jacodt.";
+draw_set_font(fnt_fuente_museo);
+var color = make_color_rgb(196, 163, 56);
+draw_set_color(color);
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
+x = 503;
+y = 285;
+var ancho = 50;
+var alto = 1000;
+draw_text_ext(x, y, texto, ancho, alto);
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
