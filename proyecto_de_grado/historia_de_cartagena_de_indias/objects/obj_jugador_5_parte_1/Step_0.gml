@@ -1,4 +1,3 @@
-// Ajusta la gravedad según sea necesario
 grav = 0.4;
 
 // Aplica la gravedad al jugador si no está en contacto con el suelo

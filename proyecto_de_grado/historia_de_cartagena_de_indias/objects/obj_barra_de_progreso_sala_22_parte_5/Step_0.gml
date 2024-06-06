@@ -1,5 +1,4 @@
-// Incrementar el progreso de la barra de carga (simulado)
-current_progress += 1; // Esto es solo un ejemplo, puedes ajustar la velocidad de carga
+current_progress += 1;
 if (current_progress >= total_progress) {
-    room_goto(rm_sala_22_mision_cumplida_parte_5); // Cambia a la sala 'rm_comenzamos_a_jugar'
+    room_goto(rm_sala_22_mision_cumplida_parte_5);
 }

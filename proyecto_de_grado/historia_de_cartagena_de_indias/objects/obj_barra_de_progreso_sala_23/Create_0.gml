@@ -1,3 +1,2 @@
-// Inicializar variables para la barra de carga
-total_progress = 900; // Puedes ajustar este valor según tu necesidad
+total_progress = 900;
 current_progress = 0;
