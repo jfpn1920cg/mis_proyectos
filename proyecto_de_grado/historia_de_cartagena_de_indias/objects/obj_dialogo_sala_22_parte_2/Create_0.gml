@@ -1,4 +1,3 @@
-// En el evento Create
 textos = [
 	"No, no, no, esperen. ¡Ya salgo, esperen! Soy un niño, estoy perdido y no sé dónde estoy.",
 	"¡Alto al fuego, no disparen! ¿Tú eres enemigo o amigo? ¡Espero que me des una respuesta correcta!",
@@ -12,8 +11,7 @@ textos = [
 	"Por ahora, me servirás de mucha ayuda para buscar recursos para mi nave y repararla.",
 	"Sí, señor, como usted diga.",
 	"Jovencito, los demás soldados y yo iremos por comida y te encomendaré una misión. Adéntrate en el bosque, busca lo necesario para nuestro barco.",
-	"¡Adelante, vamooosss!"
-	
+	"¡Adelante, vamooosss!"	
 ];
 sprites = [
     spr_dialogo_sala_22_parte_3,
@@ -32,18 +30,11 @@ sprites = [
 texto_actual = 0;
 texto = textos[texto_actual];
 sprite_actual = sprites[texto_actual];
-
-x = 64;  // Ajusta la posición X según tus necesidades
-y = 657;  // Ajusta la posición Y según tus necesidades
-
-// Configuración del tamaño del texto
-tamano_fuente = 30;  // Ajusta el tamaño de la fuente según tus necesidades
-
-// Configuración de la barra de progreso
+x = 64;
+y = 657;
+tamano_fuente = 30;
 progreso_maximo = array_length_1d(textos);
 progreso_actual = 0;
-
-// Configuración del tiempo
-tiempo_mostrado = 10 * room_speed; // 10 segundos convertidos a frames
+tiempo_mostrado = 10 * room_speed;
 tiempo_actual = 0;
 tiempo_restante = tiempo_mostrado;
