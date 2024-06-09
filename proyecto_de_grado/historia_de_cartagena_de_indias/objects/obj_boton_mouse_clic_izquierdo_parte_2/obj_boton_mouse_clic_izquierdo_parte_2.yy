@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_boton_mouse_clic_izquierdo",
-    "path": "sprites/spr_boton_mouse_clic_izquierdo/spr_boton_mouse_clic_izquierdo.yy",
+    "name": "spr_boton_de_cueva",
+    "path": "sprites/spr_boton_de_cueva/spr_boton_de_cueva.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "misiones",
-    "path": "folders/Sprites/sistema_del_juego/misiones.yy",
+    "name": "misiones_principal",
+    "path": "folders/Sprites/sistema_del_juego/misiones_principal.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

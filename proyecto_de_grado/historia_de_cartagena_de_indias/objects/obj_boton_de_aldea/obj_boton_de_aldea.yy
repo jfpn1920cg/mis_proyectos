@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_boton_mouse_clic_izquierdo_parte_1",
+  "name": "obj_boton_de_aldea",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,},
@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "mascara_del_jefe_de_la_tribu",
-    "path": "folders/Objetos/mision_segundaria/sala_23/mascara_del_jefe_de_la_tribu.yy",
+    "name": "botones",
+    "path": "folders/Objetos/botones.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_boton_de_cueva",
-    "path": "sprites/spr_boton_de_cueva/spr_boton_de_cueva.yy",
+    "name": "spr_boton_de_aldea",
+    "path": "sprites/spr_boton_de_aldea/spr_boton_de_aldea.yy",
   },
   "spriteMaskId": null,
   "visible": true,
