@@ -3,8 +3,8 @@ textos = [
 	"bien, me ire de aqui antes que se vallan y no me dejen solo."	
 ];
 sprites = [
-    spr_dialogo_sala_23_parte_2,
-	spr_dialogo_sala_23_parte_2	
+    spr_dialogo_sala_23,
+	spr_dialogo_sala_23	
 ];
 texto_actual = 0;
 texto = textos[texto_actual];

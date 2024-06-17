@@ -681,7 +681,7 @@
     {"name":"spr_sala_21","order":1,"path":"sprites/spr_sala_21/spr_sala_21.yy",},
     {"name":"rm_sala_11","order":2,"path":"rooms/rm_sala_11/rm_sala_11.yy",},
     {"name":"spr_sala_1_dialogo_tutorial","order":11,"path":"sprites/spr_sala_1_dialogo_tutorial/spr_sala_1_dialogo_tutorial.yy",},
-    {"name":"spr_dialogo_sala_23_parte_2","order":1,"path":"sprites/spr_dialogo_sala_23_parte_2/spr_dialogo_sala_23_parte_2.yy",},
+    {"name":"spr_dialogo_sala_23","order":1,"path":"sprites/spr_dialogo_sala_23/spr_dialogo_sala_23.yy",},
     {"name":"spr_acceso_a_sala_65","order":62,"path":"sprites/spr_acceso_a_sala_65/spr_acceso_a_sala_65.yy",},
     {"name":"obj_barra_de_progreso_sala_22_parte_4","order":3,"path":"objects/obj_barra_de_progreso_sala_22_parte_4/obj_barra_de_progreso_sala_22_parte_4.yy",},
     {"name":"spr_boton_de_puedes_salir_parte_2","order":1,"path":"sprites/spr_boton_de_puedes_salir_parte_2/spr_boton_de_puedes_salir_parte_2.yy",},

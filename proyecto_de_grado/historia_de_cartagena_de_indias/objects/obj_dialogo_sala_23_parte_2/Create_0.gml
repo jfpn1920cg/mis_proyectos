@@ -3,8 +3,8 @@ textos = [
 	"de que esto lo calme y ponga fin al alboroto sin alarmar a nadie más"	
 ];
 sprites = [
-    spr_dialogo_sala_23_parte_2,
-	spr_dialogo_sala_23_parte_2	
+    spr_dialogo_sala_23,
+	spr_dialogo_sala_23	
 ];
 texto_actual = 0;
 texto = textos[texto_actual];
