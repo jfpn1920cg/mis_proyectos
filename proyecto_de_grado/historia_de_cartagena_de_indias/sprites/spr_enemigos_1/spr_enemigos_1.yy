@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "caracteristicas_del_enemigo_1",
-    "path": "folders/Sprites/combates/sala_22/troncos_de_madera/caracteristicas_del_enemigo_1.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/troncos_de_madera/caracteristicas_del_enemigo_1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

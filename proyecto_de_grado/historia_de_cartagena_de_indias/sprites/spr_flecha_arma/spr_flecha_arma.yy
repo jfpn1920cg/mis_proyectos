@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "arco_y_flecha",
-    "path": "folders/Sprites/combates/sala_22/armas/armas_primitivas/arco_y_flecha.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/armas/armas_primitivas/arco_y_flecha.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

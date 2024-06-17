@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "lanzas",
-    "path": "folders/Sprites/combates/sala_22/armas/armas_primitivas/lanzas.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/armas/armas_primitivas/lanzas.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

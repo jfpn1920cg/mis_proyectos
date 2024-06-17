@@ -36,7 +36,7 @@
   "origin": 0,
   "parent": {
     "name": "barra_de_vida",
-    "path": "folders/Sprites/combates/sala_22/troncos_de_madera/barra_de_vida.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/troncos_de_madera/barra_de_vida.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

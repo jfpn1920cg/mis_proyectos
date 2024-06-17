@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "derecha",
-    "path": "folders/Sprites/combates/sala_22/trosos_de_metal/caracteristicas_del_jugador_4/derecha.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/trosos_de_metal/caracteristicas_del_jugador_4/derecha.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

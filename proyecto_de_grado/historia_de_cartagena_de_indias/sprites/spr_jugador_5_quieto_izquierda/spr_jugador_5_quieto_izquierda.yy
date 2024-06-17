@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "izquierda",
-    "path": "folders/Sprites/combates/sala_22/bloques_carbon/caracteristicas_del_jugador_5/izquierda.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bloques_carbon/caracteristicas_del_jugador_5/izquierda.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

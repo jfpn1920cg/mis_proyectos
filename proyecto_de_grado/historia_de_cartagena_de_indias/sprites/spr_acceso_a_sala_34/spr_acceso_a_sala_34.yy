@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_acceso_a_sala_34",
-  "bbox_bottom": 66,
+  "bbox_bottom": 61,
   "bbox_left": 0,
-  "bbox_right": 61,
+  "bbox_right": 66,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f850895-cae5-4fe3-986c-335bb7868e2e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ba3e09c-2c8a-4198-870e-a84519fc259e",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 67,
+  "height": 62,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"79afe5f8-cb34-45e1-8483-a99cef256438","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"47c7ec21-04a0-4f2a-973c-3dba98e2066c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9f850895-cae5-4fe3-986c-335bb7868e2e","path":"sprites/spr_acceso_a_sala_34/spr_acceso_a_sala_34.yy",},},},"Disabled":false,"id":"5a64d885-4887-4cef-bf35-e950c787110b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2ba3e09c-2c8a-4198-870e-a84519fc259e","path":"sprites/spr_acceso_a_sala_34/spr_acceso_a_sala_34.yy",},},},"Disabled":false,"id":"50e45457-0ba6-4d34-8d9d-92eb53c1a425","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 62,
+  "width": 67,
 }

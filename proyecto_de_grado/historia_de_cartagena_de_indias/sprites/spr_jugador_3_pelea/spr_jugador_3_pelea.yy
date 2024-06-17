@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "bloques_de_piedra",
-    "path": "folders/Sprites/combates/sala_22/bloques_de_piedra.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bloques_de_piedra.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

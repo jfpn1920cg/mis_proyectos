@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "bloques_carbon",
-    "path": "folders/Sprites/combates/sala_22/bloques_carbon.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bloques_carbon.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

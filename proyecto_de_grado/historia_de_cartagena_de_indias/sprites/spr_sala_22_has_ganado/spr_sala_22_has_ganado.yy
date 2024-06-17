@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5fc56fa0-c7df-49e9-95cf-79178a9a95e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8443303-f9ac-4e05-a25e-8d2b40ee30db",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 240,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e5da1d45-cb3c-479d-9e96-2ce76f5d5148","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1bf8d7f0-c817-4942-84ed-f2d01f185e85","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
     "name": "sala_22",
-    "path": "folders/Sprites/sistema_del_juego/disiciones/sala_22.yy",
+    "path": "folders/Sprites/sistema_del_juego/desiciones/sala_22.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5fc56fa0-c7df-49e9-95cf-79178a9a95e3","path":"sprites/spr_sala_22_has_ganado/spr_sala_22_has_ganado.yy",},},},"Disabled":false,"id":"0752a14e-a9ec-45d3-b994-93468ab2f784","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f8443303-f9ac-4e05-a25e-8d2b40ee30db","path":"sprites/spr_sala_22_has_ganado/spr_sala_22_has_ganado.yy",},},},"Disabled":false,"id":"fd51b7f7-f697-4b19-894c-c291441e3269","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

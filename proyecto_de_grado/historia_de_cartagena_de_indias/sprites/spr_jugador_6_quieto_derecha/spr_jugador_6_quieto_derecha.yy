@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "derecha",
-    "path": "folders/Sprites/combates/sala_22/bosas_de_plumas/caracteristicas_del_jugador_6/derecha.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bosas_de_plumas/caracteristicas_del_jugador_6/derecha.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

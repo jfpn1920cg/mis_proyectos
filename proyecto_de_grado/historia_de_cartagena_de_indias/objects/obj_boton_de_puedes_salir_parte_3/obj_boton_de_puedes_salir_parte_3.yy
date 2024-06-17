@@ -31,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_boton_de_puedes_salir",
-    "path": "sprites/spr_boton_de_puedes_salir/spr_boton_de_puedes_salir.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

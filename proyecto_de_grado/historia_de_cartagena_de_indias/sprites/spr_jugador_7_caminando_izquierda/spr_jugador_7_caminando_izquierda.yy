@@ -29,7 +29,7 @@
   "origin": 0,
   "parent": {
     "name": "izquierda",
-    "path": "folders/Sprites/combates/sala_22/bosa_de_piel/caracteristicas_del_jugador_7/izquierda.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bosa_de_piel/caracteristicas_del_jugador_7/izquierda.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

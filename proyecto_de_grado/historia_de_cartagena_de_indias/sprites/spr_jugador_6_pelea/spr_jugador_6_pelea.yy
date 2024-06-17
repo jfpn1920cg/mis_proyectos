@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "bosas_de_plumas",
-    "path": "folders/Sprites/combates/sala_22/bosas_de_plumas.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bosas_de_plumas.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

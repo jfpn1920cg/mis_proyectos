@@ -33,7 +33,7 @@
   "origin": 0,
   "parent": {
     "name": "barras_de_vida",
-    "path": "folders/Sprites/combates/sala_22/trosos_de_metal/barras_de_vida.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/trosos_de_metal/barras_de_vida.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

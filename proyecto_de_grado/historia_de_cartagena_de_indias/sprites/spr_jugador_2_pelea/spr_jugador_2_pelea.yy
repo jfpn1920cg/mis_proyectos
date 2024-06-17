@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "troncos_de_madera",
-    "path": "folders/Sprites/combates/sala_22/troncos_de_madera.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/troncos_de_madera.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

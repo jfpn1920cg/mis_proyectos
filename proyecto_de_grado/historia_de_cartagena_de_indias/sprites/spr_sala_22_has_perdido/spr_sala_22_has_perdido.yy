@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee7882c6-0f80-4da4-a253-770fe3ce8097",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a137e95e-3023-4eb9-bc03-6beed894e1df",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 240,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b19712ff-80a8-4e7f-a7c2-599a1c729791","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b0e4b895-f469-4c89-8dee-aad750c9f97f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
     "name": "sala_22",
-    "path": "folders/Sprites/sistema_del_juego/disiciones/sala_22.yy",
+    "path": "folders/Sprites/sistema_del_juego/desiciones/sala_22.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee7882c6-0f80-4da4-a253-770fe3ce8097","path":"sprites/spr_sala_22_has_perdido/spr_sala_22_has_perdido.yy",},},},"Disabled":false,"id":"e22150b4-2b0b-4c7c-9c27-a36d55040cd7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a137e95e-3023-4eb9-bc03-6beed894e1df","path":"sprites/spr_sala_22_has_perdido/spr_sala_22_has_perdido.yy",},},},"Disabled":false,"id":"1b554cd0-6758-4504-a5d6-49a613ebaada","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

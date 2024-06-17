@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "caracteristicas_del_enemigo_3",
-    "path": "folders/Sprites/combates/sala_22/trosos_de_metal/caracteristicas_del_enemigo_3.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/trosos_de_metal/caracteristicas_del_enemigo_3.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

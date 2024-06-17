@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "sala_22",
-    "path": "folders/Sprites/combates/sala_22.yy",
+    "path": "folders/Sprites/mision_principal/sala_22.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

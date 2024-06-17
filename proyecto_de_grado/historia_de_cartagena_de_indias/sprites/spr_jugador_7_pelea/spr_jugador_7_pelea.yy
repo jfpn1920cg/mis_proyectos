@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "bosa_de_piel",
-    "path": "folders/Sprites/combates/sala_22/bosa_de_piel.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bosa_de_piel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

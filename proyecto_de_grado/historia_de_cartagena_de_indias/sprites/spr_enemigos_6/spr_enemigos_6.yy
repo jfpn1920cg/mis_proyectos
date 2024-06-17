@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "caracteristicas_del_enemigo_6",
-    "path": "folders/Sprites/combates/sala_22/bosa_de_piel/caracteristicas_del_enemigo_6.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bosa_de_piel/caracteristicas_del_enemigo_6.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -31,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_boton_de_vuelve_a_intentarlo",
-    "path": "sprites/spr_boton_de_vuelve_a_intentarlo/spr_boton_de_vuelve_a_intentarlo.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

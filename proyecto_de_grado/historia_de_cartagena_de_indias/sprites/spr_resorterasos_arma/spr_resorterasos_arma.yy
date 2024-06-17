@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "resortera",
-    "path": "folders/Sprites/combates/sala_22/armas/armas_primitivas/resortera.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/armas/armas_primitivas/resortera.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

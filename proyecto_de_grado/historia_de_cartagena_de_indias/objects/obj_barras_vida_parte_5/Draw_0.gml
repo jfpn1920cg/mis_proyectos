@@ -5,4 +5,4 @@ draw_sprite_ext(spr_barra_de_vida_del_jugador_parte_1, vida_jugador_frame, 13, 1
 var vida_enemigo_frame = clamp(23 - ceil((vida_actual_enemigo / vida_maxima_enemigo) * 25), 0, 25);
 var vida_enemigo_scale_x = 2;
 var vida_enemigo_scale_y = 2;
-draw_sprite_ext(spr_barra_de_vida_del_enemigo_parte_2, vida_enemigo_frame, 1023, 12 , vida_enemigo_scale_x, vida_enemigo_scale_y, 0, c_white, 1); 
+draw_sprite_ext(spr_barra_de_vida_del_enemigo_por_tres_parte_2, vida_enemigo_frame, 1023, 12 , vida_enemigo_scale_x, vida_enemigo_scale_y, 0, c_white, 1); 

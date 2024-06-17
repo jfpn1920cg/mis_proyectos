@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "derecha",
-    "path": "folders/Sprites/combates/sala_22/bloques_de_piedra/caracteristicas_del_jugador_3/derecha.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bloques_de_piedra/caracteristicas_del_jugador_3/derecha.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

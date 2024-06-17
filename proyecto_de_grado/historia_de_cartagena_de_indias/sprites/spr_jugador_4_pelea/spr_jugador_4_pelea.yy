@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "trosos_de_metal",
-    "path": "folders/Sprites/combates/sala_22/trosos_de_metal.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/trosos_de_metal.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -29,7 +29,7 @@
   "origin": 0,
   "parent": {
     "name": "izquierda",
-    "path": "folders/Sprites/combates/sala_22/bloques_de_piedra/caracteristicas_del_jugador_3/izquierda.yy",
+    "path": "folders/Sprites/mision_principal/sala_22/bloques_de_piedra/caracteristicas_del_jugador_3/izquierda.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
