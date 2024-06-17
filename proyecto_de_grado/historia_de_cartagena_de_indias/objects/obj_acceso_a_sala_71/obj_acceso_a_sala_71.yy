@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_acceso_a_sala_71",
+    "path": "sprites/spr_acceso_a_sala_71/spr_acceso_a_sala_71.yy",
+  },
   "spriteMaskId": null,
   "visible": false,
 }
