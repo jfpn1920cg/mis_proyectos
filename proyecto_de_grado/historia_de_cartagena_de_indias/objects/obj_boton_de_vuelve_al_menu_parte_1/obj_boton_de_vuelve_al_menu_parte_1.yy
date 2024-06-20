@@ -31,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_boton_de_vuelve_al_menu_parte_1",
+    "path": "sprites/spr_boton_de_vuelve_al_menu_parte_1/spr_boton_de_vuelve_al_menu_parte_1.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
