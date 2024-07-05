@@ -1,0 +1,130 @@
+/*estilizando_menu_de_navegacion_hamburguesa*/
+.menu_de_navegacion_hamburguesa{
+    width: 1425px;
+    margin-top: -3px;
+    margin-left: -3px;
+    border-radius: 5px 5px 0px 0px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(59, 200, 224);
+}
+.lineas {
+    height: 5px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 5px;
+    background-color: #000;
+}
+.opciones_de_seleccion {
+    width: 160px;
+    height: 295px;
+    border-radius: 0px 0px 5px 5px;
+    margin-left: -3px;
+    margin-top: 5px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(59, 200, 224);
+}
+.seleccionar_opciones{
+    margin-top: 15px;
+    margin-left: 5px;
+    z-index: 9;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    color:  rgb(255, 255, 255);
+}
+/*adaptacion_menu_de_navegacion_hamburguesa_version iphone_se*/
+@media (max-width: 375px) {
+    .menu_de_navegacion_hamburguesa {
+        width: 361px;
+    }
+    .lineas {
+        width: 30px;
+        margin: 5px 0px 5px 5px;
+    }
+    .opciones_de_seleccion {
+        width: 352px;
+        height: 295px;
+        margin-left: -3px;
+        margin-top: 5px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .seleccionar_opciones {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+}
+/*adaptacion_menu_de_navegacion_hamburguesa_version_iphone_xr*/
+@media (max-width: 414px) {
+    .menu_de_navegacion_hamburguesa {
+        width: 400px;
+        margin-top: -3px;
+        margin-left: -3px;
+    }
+    .lineas {
+        width: 30px;
+        margin: 5px 0px 5px 5px;
+    }
+    .opciones_de_seleccion {
+        width: 400px;
+        height: 295px;
+        margin-left: -3px;
+        margin-top: 5px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .seleccionar_opciones {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+}
+/*adaptacion_menu_de_navegacion_hamburguesa_version_iphone_12_pro*/
+@media (max-width: 390px) {
+    .menu_de_navegacion_hamburguesa {
+        width: 376px;
+        margin-top: -3px;
+        margin-left: -3px;
+    }
+    .lineas {
+        width: 30px;
+        margin: 5px 0px 5px 5px;
+    }
+    .opciones_de_seleccion {
+        width: 376px;
+        height: 295px;
+        margin-left: -3px;
+        margin-top: 5px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .seleccionar_opciones {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+}
+/*adaptacion_menu_de_navegacion_hamburguesa_version_iphone_14_pro_max*/
+@media (max-width: 430px) {
+    .menu_de_navegacion_hamburguesa {
+        width: 416px;
+        margin-top: -3px;
+        margin-left: -3px;
+    }
+    .lineas {
+        width: 30px;
+        margin: 5px 0px 5px 5px;
+    }
+    .opciones_de_seleccion {
+        width: 416px;
+        height: 295px;
+        margin-left: -3px;
+        margin-top: 5px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .seleccionar_opciones {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+}
