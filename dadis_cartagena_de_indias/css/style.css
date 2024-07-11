@@ -1,6 +1,6 @@
 /*estilizando_menu_de_navegacion_hamburguesa*/
 .menu_de_navegacion_hamburguesa{
-    width: 1425px;
+    width: 1352px;
     margin-top: -3px;
     margin-left: -3px;
     border-radius: 5px 5px 0px 0px;
@@ -37,6 +37,27 @@
 }
 a:hover {
     color:  rgb(255, 255, 255);
+}
+/*adaptacion_menu_de_navegacion_hamburguesa_version_computador*/
+@media (max-width: 1326px) {
+    .menu_de_navegacion_hamburguesa {
+        width: 1312px;
+    }
+    .lineas {
+        width: 30px;
+        margin: 5px 0px 5px 5px;
+    }
+    .opciones_de_seleccion {
+        width: 352px;
+        height: 295px;
+        margin-left: -3px;
+        margin-top: 5px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .seleccionar_opciones {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
 }
 /*adaptacion_menu_de_navegacion_hamburguesa_version iphone_se*/
 @media (max-width: 375px) {
