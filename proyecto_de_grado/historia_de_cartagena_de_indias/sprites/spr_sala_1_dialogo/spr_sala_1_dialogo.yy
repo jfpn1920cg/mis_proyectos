@@ -13,16 +13,39 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b25c2690-e89b-4562-b6d2-57fbcf270c76",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f13209f0-15e2-4ecb-85a7-e6c8e2366d79",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 420,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38e4938b-6273-4520-ade8-ab3eb3ce227c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"26861cbe-3f43-43ef-8909-8a5f28dd61e7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "resourceType": "GMNineSliceData",
+    "resourceVersion": "1.0",
+    "bottom": 0,
+    "enabled": false,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "left": 0,
+    "right": 0,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "top": 0,
+  },
   "origin": 0,
   "parent": {
     "name": "sala_1",
@@ -54,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b25c2690-e89b-4562-b6d2-57fbcf270c76","path":"sprites/spr_sala_1_dialogo/spr_sala_1_dialogo.yy",},},},"Disabled":false,"id":"c618a326-6372-4a1c-9330-4594da19141f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f13209f0-15e2-4ecb-85a7-e6c8e2366d79","path":"sprites/spr_sala_1_dialogo/spr_sala_1_dialogo.yy",},},},"Disabled":false,"id":"a5b07d8f-da70-4e78-b802-392c43db5ce9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
