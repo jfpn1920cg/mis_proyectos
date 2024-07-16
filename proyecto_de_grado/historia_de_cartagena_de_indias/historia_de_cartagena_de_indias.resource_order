@@ -511,6 +511,7 @@
     {"name":"obj_acceso_a_sala_35","order":35,"path":"objects/obj_acceso_a_sala_35/obj_acceso_a_sala_35.yy",},
     {"name":"obj_boton_de_omitir_parte_21","order":21,"path":"objects/obj_boton_de_omitir_parte_21/obj_boton_de_omitir_parte_21.yy",},
     {"name":"obj_acceso_a_sala_51","order":51,"path":"objects/obj_acceso_a_sala_51/obj_acceso_a_sala_51.yy",},
+    {"name":"Object269","order":14,"path":"objects/Object269/Object269.yy",},
     {"name":"obj_acceso_a_sala_9","order":9,"path":"objects/obj_acceso_a_sala_9/obj_acceso_a_sala_9.yy",},
     {"name":"obj_dialogo_sala_22_parte_2","order":1,"path":"objects/obj_dialogo_sala_22_parte_2/obj_dialogo_sala_22_parte_2.yy",},
     {"name":"spr_flecha_arma","order":1,"path":"sprites/spr_flecha_arma/spr_flecha_arma.yy",},

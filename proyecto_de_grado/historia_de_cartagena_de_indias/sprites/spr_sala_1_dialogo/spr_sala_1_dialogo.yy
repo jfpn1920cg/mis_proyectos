@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f13209f0-15e2-4ecb-85a7-e6c8e2366d79",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"713bef7b-3f66-43cf-b568-fc4ed4da612e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 420,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"26861cbe-3f43-43ef-8909-8a5f28dd61e7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"22cc8b79-cf84-4d8b-b998-c24d3beac1ad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f13209f0-15e2-4ecb-85a7-e6c8e2366d79","path":"sprites/spr_sala_1_dialogo/spr_sala_1_dialogo.yy",},},},"Disabled":false,"id":"a5b07d8f-da70-4e78-b802-392c43db5ce9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"713bef7b-3f66-43cf-b568-fc4ed4da612e","path":"sprites/spr_sala_1_dialogo/spr_sala_1_dialogo.yy",},},},"Disabled":false,"id":"bcb7c7f1-f10f-4a77-86a2-406d4b656bbd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

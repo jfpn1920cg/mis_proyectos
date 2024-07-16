@@ -626,6 +626,7 @@
     {"id":{"name":"spr_boton_de_desplasamiento","path":"sprites/spr_boton_de_desplasamiento/spr_boton_de_desplasamiento.yy",},},
     {"id":{"name":"obj_acceso_a_sala_51","path":"objects/obj_acceso_a_sala_51/obj_acceso_a_sala_51.yy",},},
     {"id":{"name":"rm_sala_22_combate_parte_5","path":"rooms/rm_sala_22_combate_parte_5/rm_sala_22_combate_parte_5.yy",},},
+    {"id":{"name":"Object269","path":"objects/Object269/Object269.yy",},},
     {"id":{"name":"obj_acceso_a_sala_9","path":"objects/obj_acceso_a_sala_9/obj_acceso_a_sala_9.yy",},},
     {"id":{"name":"obj_dialogo_sala_22_parte_2","path":"objects/obj_dialogo_sala_22_parte_2/obj_dialogo_sala_22_parte_2.yy",},},
     {"id":{"name":"spr_flecha_arma","path":"sprites/spr_flecha_arma/spr_flecha_arma.yy",},},
