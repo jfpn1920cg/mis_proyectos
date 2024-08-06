@@ -223,7 +223,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"rm_sala_21_dialogo","path":"rooms/rm_sala_21_dialogo/rm_sala_21_dialogo.yy",},},
@@ -978,6 +978,7 @@
     {"roomId":{"name":"rm_sala_8","path":"rooms/rm_sala_8/rm_sala_8.yy",},},
     {"roomId":{"name":"rm_sala_8_barra_de_progreso","path":"rooms/rm_sala_8_barra_de_progreso/rm_sala_8_barra_de_progreso.yy",},},
     {"roomId":{"name":"rm_sala_9","path":"rooms/rm_sala_9/rm_sala_9.yy",},},
+    {"roomId":{"name":"rm_sala_22_combate_parte_1","path":"rooms/rm_sala_22_combate_parte_1/rm_sala_22_combate_parte_1.yy",},},
     {"roomId":{"name":"rm_sala_10","path":"rooms/rm_sala_10/rm_sala_10.yy",},},
     {"roomId":{"name":"rm_sala_10_dialogo","path":"rooms/rm_sala_10_dialogo/rm_sala_10_dialogo.yy",},},
     {"roomId":{"name":"rm_sala_10_anuncio","path":"rooms/rm_sala_10_anuncio/rm_sala_10_anuncio.yy",},},
@@ -1022,7 +1023,6 @@
     {"roomId":{"name":"rm_sala_22_tutorial_parte_1","path":"rooms/rm_sala_22_tutorial_parte_1/rm_sala_22_tutorial_parte_1.yy",},},
     {"roomId":{"name":"rm_sala_22_has_ganado_parte_1","path":"rooms/rm_sala_22_has_ganado_parte_1/rm_sala_22_has_ganado_parte_1.yy",},},
     {"roomId":{"name":"rm_sala_22_has_perdido_parte_1","path":"rooms/rm_sala_22_has_perdido_parte_1/rm_sala_22_has_perdido_parte_1.yy",},},
-    {"roomId":{"name":"rm_sala_22_combate_parte_1","path":"rooms/rm_sala_22_combate_parte_1/rm_sala_22_combate_parte_1.yy",},},
     {"roomId":{"name":"rm_sala_22_barra_de_progreso_parte_1","path":"rooms/rm_sala_22_barra_de_progreso_parte_1/rm_sala_22_barra_de_progreso_parte_1.yy",},},
     {"roomId":{"name":"rm_sala_22_combate_parte_2","path":"rooms/rm_sala_22_combate_parte_2/rm_sala_22_combate_parte_2.yy",},},
     {"roomId":{"name":"rm_sala_22_combate_parte_3","path":"rooms/rm_sala_22_combate_parte_3/rm_sala_22_combate_parte_3.yy",},},
