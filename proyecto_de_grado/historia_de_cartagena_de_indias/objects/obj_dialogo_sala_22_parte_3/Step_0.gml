@@ -2,7 +2,6 @@ tiempo_actual += 1;
 if (tiempo_actual >= tiempo_restante)
 {
     texto_actual = (texto_actual + 1) mod array_length_1d(textos);
-    texto_actual = clamp(texto_actual, 0, array_length_1d(sprites) - 1);
     sprite_actual = sprites[texto_actual];
     texto = textos[texto_actual];
     tiempo_actual = 0;
