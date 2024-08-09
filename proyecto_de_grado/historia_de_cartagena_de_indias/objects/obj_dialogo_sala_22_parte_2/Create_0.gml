@@ -25,6 +25,7 @@ sprites = [
 	spr_dialogo_sala_22_parte_1,
 	spr_dialogo_sala_22_parte_1,
 	spr_dialogo_sala_22_parte_3,
+	spr_dialogo_sala_22_parte_2,
 	spr_dialogo_sala_22_parte_2
 ];
 texto_actual = 0;

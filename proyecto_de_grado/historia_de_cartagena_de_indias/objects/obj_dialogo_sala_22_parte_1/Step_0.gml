@@ -9,6 +9,6 @@ if (tiempo_actual >= tiempo_restante)
     progreso_actual += 1;
     if (progreso_actual >= progreso_maximo)
     {
-        room_goto(rm_sala_22_dialogo_parte_2);
-    }
+		room_goto(rm_sala_22_dialogo_parte_2);
+	}
 }
